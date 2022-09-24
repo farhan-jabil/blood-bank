@@ -1,13 +1,257 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+a{
+  text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+li{
+  list-style: none;
+}
+
+.topNav{
+  height: 45px;
+  color: white;
+  background-color: #DE1F26;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+  padding-bottom: 15px;
+}
+
+.topNavDark{
+  height: 45px;
+  color: white;
+  background-color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+  padding-bottom: 15px;
+}
+
+
+.topNavLeft{
+  padding-left: 200px;
+}
+
+.rightNavLeft{
+  padding-left: 200px;
+  font-size: 20px;
+}
+
+.bottomNav{
+  height: 85px;
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  box-shadow: 5px 0px 6px  grey;
+  
+}
+
+.bottomNavDark{
+  color: white;
+  height: 85px;
+  background-color: grey;
+  position: sticky;
+  top: 0px;
+} 
+
+
+.bottomNavRight{
+  margin-left: 370px;
+  font-family: 'Merriweather', serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.logoImg{
+  margin-left: 160px;
+}
+
+.vr{
+  background-color: white;
+}
+
+
+.homeText{
+  color: white;
+  font-family: "montserrat";
+  font-weight: 450;
+  text-align: center;
+  padding: 0 300px;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 380px;
+}
+
+.homeTextButton{
+  margin-top: 20px;
+  padding-right: 20px;
+}
+
+.homeTextButton button{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 15px;
+  width: 200px;
+  background-color: #DE1F26;
+}
+
+#homeSliderButton1{
+  position: absolute;
+  top: 360px;
+  left: 100px
+}
+#homeSliderButton2{
+  position: absolute;
+  top: 360px;
+  right: 100px
+}
+
+.about{
+  padding-top: 100px;
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.aboutHeader{
+  color: grey;
+  font-size: 20px;
+  text-align: center;
+}
+
+.aboutBody{
+  display: flex;
+  padding: 50px 150px;
+}
+
+.aboutText{
+  padding: 0 50px;
+}
+
+.gallery{
+  padding-top: 100px;
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: grey;
+  text-align: center;
+}
+
+.galleryImages img{
+  border-radius: 5%;
+  height: 200px;
+  width: 300px;
+  margin: 20px;
+}
+
+.contact{
+  background-color: #DE1F26;
+  color: white;
+  margin-top: 150px;
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+}
+
+.contact{
+  padding: 80px 180px;
+}
+
+.contact-info{
+  display: flex;
+}
+
+.contact-informints{
+  margin-right: 100px;
+}
+
+.contact-infomints-data{
+  display: flex;
+}
+
+.contact-informints p{
+  margin-left: 15px;
+  display: inline-block;
+}
+
+.quick-links-list{
+  display: flex;
+}
+
+.quick-links-1{
+ padding-right: 100px;
+}
+
+.products-list{
+  display: flex;
+}
+
+.products-list-1{
+ padding-right: 40px;
+}
+
+.quick-msg{
+  position: absolute;
+  margin-left: 150px;
+  top: 2450px;
+  right: 180px;
+}
+
+.form{
+  margin-top: 70px;
+  padding: 0 200px;
+}
+
+.nav_list li{
+  height: 50px; 
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+.nav_list li a{
+  color: #DE1F26;
+}
+
+.nav_list li i{
+  margin-right: 8px;
+}
+
+.dashboardBody{
+  background-color: #E6F0F1;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  
+}
+
+
+.card-text{
+  background-color: #E6F0F1;
+  font-size: 15px;
+}
+
+.bloodGroup{
+  display: inline;
+  position: absolute;
+  right: 15px;
+  color: white;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #DE1F26;
+  margin-top: -4px;
+  font-size: 12px;
+  text-align: center;
+  padding: 2px 5px;
+}
+
+.donorChart{
+  position: relative;
+  right: 35px;
+}
+
+.chatTime{
+  display: inline;
+  position: absolute;
+  right: 15px;
+  color: black;
+  margin-top: -4px;
+  font-size: 12px;
+  text-align: center;
+  padding: 2px 5px;
 }

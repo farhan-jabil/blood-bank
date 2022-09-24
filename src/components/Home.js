@@ -57,9 +57,9 @@ export default function Home() {
 
   return (
     <>
+      <div className="home" id="home">
       <i id="homeSliderButton1" className="fa-solid fa-2x text-white fa-angle-left" onClick={homeChangePrev} ></i>
       <i id="homeSliderButton2" className="homeSliderButton fa-solid fa-2x text-white fa-angle-right" onClick={homeChangeNext} ></i>
-      <div className="home">
         <section className="homeText">
           <h1>
             <b>{`${homeDetails[count].heading}`}</b>

@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Navbar(props) {
   return (
     // style={{backgroundColor: props.navColor.backgroundColor === "#DE1F26"?"#DE1F26":"black", color: "white"}}
     <>
-      <div className={`${props.navColor.backgroundColor === "#DE1F26" ? "topNav" : "topNavDark"}`}>
+      <div className="topNav">
         <nav className="navbar navbar-expand-lg navbar-light">
           <div className="container-fluid ">
             <div
@@ -42,30 +43,16 @@ export default function Navbar(props) {
                   <small>
                     <i className="fa-solid fa-user"></i>
                   </small>
-                  <span className="ms-3">Login</span>
-                </li>
-                <li className="nav-item">
-                    <i
-                      className={`fa-solid fa-circle${props.navColor.backgroundColor === "#DE1F26"? "-half-stroke": " "} ms-3`}
-                      data-bs-toggle="tooltip"
-                      data-bs-placement="top"
-                      title={`Enable ${
-                        props.navColor.backgroundColor === "#DE1F26"
-                          ? "Dark"
-                          : "Light"
-                      } mode`}
-                      type="checkbox"
-                      role="switch"
-                      id="flexSwitchCheckDefault"
-                      onClick={props.toggleMode}
-                    ></i>
+                  <span className="ms-3" >
+                    <Link to="/login" style={{color: "white"}}>Login</Link>
+                  </span>
                 </li>
               </ul>
             </div>
           </div>
         </nav>
       </div>
-      <div className={`${props.navColor.backgroundColor === "#DE1F26" ? "bottomNav":"bottomNavDark"}`}>
+      <div className="bottomNav">
         <nav className="navbar navbar-expand-lg navbar-light">
           <div className="container-fluid">
             <div className="logoImg">
@@ -93,32 +80,32 @@ export default function Navbar(props) {
             >
               <ul className="bottomNavRight navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className={`nav-link text-${props.navColor.backgroundColor === "black"?"white":""} active`} aria-current="page" href="#">
+                  <a className="nav-link text-black active" aria-current="page" href="#home">
                     Home
                   </a>
                 </li>
                 <li className="nav-item ms-5">
-                  <a className={`nav-link text-${props.navColor.backgroundColor === "black"?"white":""}`} href="#">
+                  <a className="nav-link text-grey " href="#about">
                     About Us
                   </a>
                 </li>
                 <li className="nav-item ms-5">
-                  <a className={`nav-link text-${props.navColor.backgroundColor === "black"?"white":""}`} href="#">
+                  <a className="nav-link text-grey " href="#gallery">
                     Gallery
                   </a>
                 </li>
                 {/* <li className="nav-item ms-5">
-                  <a className={`nav-link text-${props.navColor.backgroundColor === "black"?"white":""}`} href="#">
+                  <a className="nav-link text-grey " href="#">
                     Process
                   </a>
                 </li>
                 <li className="nav-item ms-5">
-                  <a className={`nav-link text-${props.navColor.backgroundColor === "black"?"white":""}`} href="#">
+                  <a className="nav-link text-grey " href="#">
                     Blog
                   </a>
                 </li> */}
                 <li className="nav-item ms-5">
-                  <a className={`nav-link text-${props.navColor.backgroundColor === "black"?"white":""}`} href="#">
+                  <a className="nav-link text-grey" href="#contact">
                     Contact Us
                   </a>
                 </li>
