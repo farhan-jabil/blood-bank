@@ -58,7 +58,7 @@ export default function BloodBank(props) {
                   <p className="card-text bg-white">
                     <i className="fa-sharp fa-solid fa-location-dot me-3"></i>
                     <span>Uttara, Dhaka</span>
-                    <br />
+                    <br/>
                     <i className="fa-sharp fa-solid fa-phone me-3"></i>
                     <span>01627-634363</span>
                   </p>

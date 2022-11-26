@@ -126,7 +126,7 @@ export default function Dashboard() {
     <>
       <div className="siteLayoutMainBody">
         <div className="siteLayoutBody my-3">
-          <div className="dashboardHeader">
+          <div className="dashboardHeader mb-3">
             <h5>Dashboard</h5>
             <div className="notification">
               <i className="fa-sharp fa-solid fa-bell" onClick={showNotification}></i>
@@ -149,9 +149,7 @@ export default function Dashboard() {
                       <div className="requestBody">
                       <Link to="/bloodRequest">
                         <div className="card-text my-3 d-flex p-1 rounded-2">
-                          
                           <img className="rounded-circle img-fluid" src="./images/profile/jacket.jpg" style={{ height: "25px" }} alt=""></img>
-                          
                           <div className="dashboard-card-text ms-2">
                             <small>13 minutes ago</small>
                             <br />
@@ -174,7 +172,6 @@ export default function Dashboard() {
                       </Link>
                       <Link to="/bloodRequest">
                         <div className="card-text my-3 d-flex p-1 rounded-2">
-                          
                           <img className="rounded-circle img-fluid" src="./images/profile/jacket.jpg" style={{ height: "25px" }} alt=""></img>
                           <div className="dashboard-card-text ms-2">
                             <small>13 minutes ago</small>
@@ -220,28 +217,15 @@ export default function Dashboard() {
                   </div>
                 </div>
               </div>
-              {/* <div className="col-lg-2 col-md-2"></div> */}
-              {/* <div className="hero">
-                <div className="card" style={{ width: "35rem" }}>
-                  <div className="card-body">
-                    <h4 style={{ color: "#DE1F26" }}>
-                      Be A Hero - It's In Your Blood!
-                    </h4>
-                    <p className="mt-3">
-                      Register to be a blood donor, give blood and save lives.
-                    </p>
-                  </div>
-                </div>
-              </div> */}
-              {/* <div className="col-lg-1"></div> */}
+              <div className="col-lg-1 col-md-2"></div>
               <div className="donationStatistics col-lg-7 col-md-7 col-sm-12 ">
                 <div className="card">
                   <div className="card-body">
                     <div className="donationStatisticsHeader pt-3">
                       <h6 className="card-title">Donation Statistics</h6>
                       <div className="ms-3">
-                        <select className="ms-1" aria-label="Default select example">
-                          <option selected>Blood Type: All</option>
+                        <select className="ms-1" aria-label="Default select example" defaultValue={'DEFAULT'}>
+                          <option value="DEFAULT" disabled>Blood Type: All</option>
                           <option value="1">Blood Type: O+</option>
                           <option value="2">Blood Type: O-</option>
                           <option value="3">Blood Type: A+</option>
@@ -251,8 +235,8 @@ export default function Dashboard() {
                           <option value="3">Blood Type: AB+</option>
                           <option value="3">Blood Type: AB-</option>
                         </select>
-                        <select className="ms-3" aria-label="Default select example">
-                          <option selected>This Year</option>
+                        <select className="ms-3" aria-label="Default select example" defaultValue={'DEFAULT'}>
+                          <option value="DEFAULT" disabled>This Year</option>
                           <option value="1">2021</option>
                           <option value="2">2020</option>
                         </select>
@@ -361,8 +345,8 @@ export default function Dashboard() {
                   </div>
                 </div>
               </div>
-              {/* <div className="col-lg-2 col-md-2"></div> */}
-              <div className="donationStatistics col-lg-7 col-md-7 col-sm-12">
+              <div className="col-lg-1 col-md-2"></div>
+              <div className="donationStatistics col-lg-7 col-md-7 col-sm-12 ">
                 <div className="card">
                   <div className="card-body">
                     <div className="donationStatisticsHeader d-flex">
@@ -370,8 +354,8 @@ export default function Dashboard() {
                         Donation Request and Recieved
                       </h6>
                       <div className="ms-3">
-                        <select className="ms-1" aria-label="Default select example">
-                          <option selected>Today</option>
+                        <select className="ms-1" aria-label="Default select example" defaultValue={'DEFAULT'}>
+                          <option value="DEFAULT" disabled>Today</option>
                           <option value="1">Yesterday</option>
                           <option value="2">This Month</option>
                           <option value="3">Previous Month</option>

@@ -10,17 +10,17 @@ export default function Contact() {
               <h4><b>Contact Informints</b></h4>
               <div className="contact-infomints-data d-flex">
                 <i className="fa-sharp fa-solid fa-location-dot pt-3"></i>
-                <p>
+                <div>
                   Sonargaon Janapath, Uttara <br /> Dhaka-1230, Bangladesh
-                </p>
+                </div>
               </div>
               <div className="contact-infomints-data">
                 <i className="fa-regular fa-envelope"></i>
-                <p>contact@solutya</p>
+                <div>contact@solutya</div>
               </div>
               <div className="contact-infomints-data d-flex">
                 <i className="fa-sharp fa-solid fa-phone pt-3"></i>
-                <p>+88 01611-66-4965<br />+88 01911-66-4965</p>
+                <div>+88 01611-66-4965<br />+88 01911-66-4965</div>
               </div>
             </div>
             <div className="quick-links-products">
@@ -73,7 +73,7 @@ export default function Contact() {
                 Quick Message
               </h3>
               <div className="card-body">
-                <p className="card-text" style={{ backgroundColor: "white" }}>
+                <div className="card-text" style={{ backgroundColor: "white" }}>
                   <form>
                     <div className="mb-4">
                       <input
@@ -113,7 +113,7 @@ export default function Contact() {
                       </button>
                     </div>
                   </form>
-                </p>
+                </div>
               </div>
             </div>
           </div>

@@ -162,7 +162,11 @@ li {
   margin-right: 100px;
 }
 
-.contact-informints p {
+.contact-infomints-data{
+  margin: 8px 0px;
+}
+
+.contact-informints div {
   margin-left: 15px;
   display: inline-block;
 }
@@ -193,6 +197,13 @@ li {
   width: 75%;
 }
 
+.signInTypes {
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  width: 100%;
+}
+
 .siteLayoutMain {
   height: 100%;
   width: 1470px;
@@ -207,6 +218,15 @@ li {
   width: 20rem;
   /* height: 29rem;
   overflow: auto; */
+}
+
+.recentUsers{
+  width: 20rem;
+  height: 22rem;
+}
+
+.recentUsers a{
+  margin-left: 120px;
 }
 
 .requestBody{
@@ -233,6 +253,12 @@ li {
 
 .profileBar {
   width: 16rem;
+}
+
+
+.adminProfileBarInfo{
+  margin-top: 25px;
+  padding-left: 70px;
 }
 
 .form {
@@ -320,10 +346,6 @@ li {
   padding: 30px;
 }
 
-.donationStatistics {
-  margin-left: 50px;
-}
-
 .donationStatisticsHeader {
   display: flex;
   flex-direction: row;
@@ -333,6 +355,13 @@ li {
   height: 150px;
   margin-top: 15px;
   margin-left: 50px;
+}
+
+.adminProfileBarDP{
+  height: 70px;
+  width: 190px;
+  margin-top: 15px;
+  margin-left: 30px;
 }
 
 .chatTimeDP img {
@@ -493,7 +522,7 @@ li {
   color: #DE1F26;
 }
 
-.bloodRecivedDonatedBody {
+.bloodRecivedDonatedBody,.addedUser {
   font-size: 18px;
   display: flex;
   margin: 15px 0px;
@@ -504,6 +533,10 @@ li {
 .bloodRecivedDonatedBody img {
   height: 70px;
   margin-top: 40px;
+}
+
+.addedUser img{
+  height: 70px;
 }
 
 .bloodRecivedDonatedBody p {
@@ -693,6 +726,10 @@ li {
 
 #selectDonor .modal-content{
   width: 45rem;
+}
+
+.companyStatus{
+  height: 55rem;
 }
 
 

@@ -9,51 +9,51 @@ export default function Gallery() {
       </div>
       <div className='galleryImages '>
         <div className='row'>
-          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div className="col-lg-3 col-md-6 col-sm-12">
           <img src="./images/gallery/g1.jpg" alt=""/>
         
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div className="col-lg-3 col-md-6 col-sm-12">
           <img src="./images/gallery/g2.jpg" alt=""/>
         
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div className="col-lg-3 col-md-6 col-sm-12">
           <img src="./images/gallery/g3.jpg" alt=""/>
         
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div className="col-lg-3 col-md-6 col-sm-12">
           <img src="./images/gallery/g4.jpg" alt=""/>
           </div>
         </div>
         <div className='row'>
-          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div className="col-lg-3 col-md-6 col-sm-12">
           <img src="./images/gallery/g5.jpg" alt=""/>
         
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div className="col-lg-3 col-md-6 col-sm-12">
           <img src="./images/gallery/g6.jpg" alt=""/>
         
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div className="col-lg-3 col-md-6 col-sm-12">
           <img src="./images/gallery/g7.jpg" alt=""/>
         
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div className="col-lg-3 col-md-6 col-sm-12">
           <img src="./images/gallery/g8.jpg" alt=""/>
           </div>
         </div>
         <div className='row'>
-          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div className="col-lg-3 col-md-6 col-sm-12">
           <img src="./images/gallery/g9.jpg" alt=""/>
         
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div className="col-lg-3 col-md-6 col-sm-12">
           <img src="./images/gallery/g10.jpg" alt=""/>
         
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div className="col-lg-3 col-md-6 col-sm-12">
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div className="col-lg-3 col-md-6 col-sm-12">
           
           </div>
         </div>

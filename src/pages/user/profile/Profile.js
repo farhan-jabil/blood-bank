@@ -195,6 +195,13 @@ export default function Profile() {
                               </div>
 
                               <div className="mb-3">
+                                <label for="password" className="form-label">
+                                  Change Password
+                                </label>
+                                <input type="name" className="form-control" id="password" />
+                              </div>
+
+                              <div className="mb-3">
                                 <label for="location" className="form-label">
                                   Change Location
                                 </label>
@@ -272,8 +279,18 @@ export default function Profile() {
                           </span>
                           <br />
                           <span>
-                            <b>Age: </b>
-                            24 years 5 months 3 days
+                            <b>Date of Birth: </b>
+                            15/5/1998
+                          </span>
+                          <br />
+                          <span>
+                            <b>Gender: </b>
+                            Male
+                          </span>
+                          <br />
+                          <span>
+                            <b>Password: </b>
+                            135792468
                           </span>
                           <br />
                         </div>

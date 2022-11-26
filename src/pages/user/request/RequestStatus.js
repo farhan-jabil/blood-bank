@@ -1,8 +1,6 @@
 import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 
-
-
 export default function RequestStatus() {
 
   const [isShown, setIsShown] = useState(false);
@@ -61,8 +59,8 @@ export default function RequestStatus() {
                             <table className="table">
                               <thead>
                                 <tr>
+                                <th style={{display: isShown ? 'block' : 'none'}} scope="col">Select</th>
                                   <th scope='col'>#</th>
-                                  <th style={{display: isShown ? 'block' : 'none'}} scope="col">Select</th>
                                   <th scope="col">Name</th>
                                   <th scope="col">Blood Group</th>
                                   <th scope="col">Action</th>

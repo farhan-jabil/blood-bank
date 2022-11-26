@@ -3,19 +3,19 @@ import { useState } from "react";
 import { Helmet } from "react-helmet";
 import { Link, useLocation } from "react-router-dom";
 
-export default function SiteLayout({ children }) {
+export default function AdminSiteLayout({ children }) {
   const { pathname } = useLocation();
-  const [status, setStatus] = useState({
-    height: "15px",
-    width: "15px",
-    backgroundColor: "#DE1F26",
-    borderRadius: "25px",
-    position: "relative",
-    top: "140px",
-    right: "35px"
-  });
+  // const [status, setStatus] = useState({
+  //   height: "15px",
+  //   width: "15px",
+  //   backgroundColor: "#DE1F26",
+  //   borderRadius: "25px",
+  //   position: "relative",
+  //   top: "140px",
+  //   right: "35px"
+  // });
 
-  // const [chatStatus, setChatStatus] = useState({
+  // const chatStatus = {
   //   height: "6px",
   //   width: "6px",
   //   backgroundColor: "#DE1F26",
@@ -23,42 +23,32 @@ export default function SiteLayout({ children }) {
   //   position: "relative",
   //   top: "22px",
   //   right: "6px"
-  // });
+  // };
 
-  const chatStatus = {
-    height: "6px",
-    width: "6px",
-    backgroundColor: "#DE1F26",
-    borderRadius: "25px",
-    position: "relative",
-    top: "22px",
-    right: "6px"
-  };
-
-  const changeStatus = () => {
-    if (status.backgroundColor === '#DE1F26') {
-      setStatus({
-        height: "15px",
-        width: "15px",
-        backgroundColor: "#02fe02",
-        borderRadius: "25px",
-        position: "relative",
-        top: "140px",
-        right: "35px"
-      })
-    }
-    else {
-      setStatus({
-        height: "15px",
-        width: "15px",
-        backgroundColor: "#DE1F26",
-        borderRadius: "25px",
-        position: "relative",
-        top: "140px",
-        right: "35px"
-      })
-    }
-  }
+  // const changeStatus = () => {
+  //   if (status.backgroundColor === '#DE1F26') {
+  //     setStatus({
+  //       height: "15px",
+  //       width: "15px",
+  //       backgroundColor: "#02fe02",
+  //       borderRadius: "25px",
+  //       position: "relative",
+  //       top: "140px",
+  //       right: "35px"
+  //     })
+  //   }
+  //   else {
+  //     setStatus({
+  //       height: "15px",
+  //       width: "15px",
+  //       backgroundColor: "#DE1F26",
+  //       borderRadius: "25px",
+  //       position: "relative",
+  //       top: "140px",
+  //       right: "35px"
+  //     })
+  //   }
+  // }
 
   return (
     <div>
@@ -72,19 +62,34 @@ export default function SiteLayout({ children }) {
               <img className="siteLayoutLogo" src="images/logo/logo.jpg" alt="" />
             </div>
             <ul className="nav_list">
-              <li className="mt-4" style={{ backgroundColor: pathname === "/dashboard" ? "#E6F0F1" : pathname === "/bloodRequest" ? "#E6F0F1" : pathname === "/bloodDonor" ? "#E6F0F1" :  pathname === "/confirmStatus" ? "#E6F0F1" :pathname === "/donationRequest" ? "#E6F0F1" : "inherit" }}  >
-                <Link to="/dashboard">
+              <li className="mt-4" style={{ backgroundColor: pathname === "/adminDashboard" ? "#E6F0F1" : pathname === "/recentUsers" ? "#E6F0F1" :  "inherit" }}>
+                <Link to="/adminDashboard">
                   <i className="fa-sharp fa-solid fa-house"></i>Dashboard
                 </Link>
               </li>
-              <li style={{ backgroundColor: pathname === "/requestBlood" ? "#E6F0F1" : pathname === "/requestStatus" ? "#E6F0F1" : "inherit" }}>
+              <li style={{ backgroundColor: pathname === "/usersList" ? "#E6F0F1" :  "inherit" }}>
+                <Link to="/usersList">
+                <i class="fa-sharp fa-solid fa-users"></i>Users List
+                </Link>
+              </li>
+              <li style={{ backgroundColor: pathname === "/requestList" ? "#E6F0F1" : pathname === "/donationDetails" ? "#E6F0F1" :  "inherit" }}>
+                <Link to="/requestList">
+                <i class="fa-sharp fa-solid fa-list"></i>Request List
+                </Link>
+              </li>
+              <li style={{ backgroundColor: pathname === "/emailVerification" ? "#E6F0F1" :  "inherit" }}>
+                <Link to="/emailVerification">
+                <i class="fa-sharp fa-solid fa-envelope"></i>E-mail Verification
+                </Link>
+              </li>
+              {/* <li style={{ backgroundColor: pathname === "/requestBlood" ? "#E6F0F1" : pathname === "/requestStatus" ? "#E6F0F1" : "inherit" }}>
                 <Link to="/requestStatus" >
                   <i className="fa-solid fa-syringe"></i>
                   Request
                 </Link>
-              </li>
-              <li style={{ backgroundColor: pathname === "/donorNotification" ? "#E6F0F1" : pathname === "/recieverNotification" ? "#E6F0F1" : pathname === "/friendNotification" ? "#E6F0F1" : "inherit" }}>
-                <Link to="/donorNotification">
+              </li> */}
+              <li style={{ backgroundColor: pathname === "/adminNotification" ? "#E6F0F1": "inherit" }}>
+                <Link to="/adminNotification">
                 <i className="fa-sharp fa-solid fa-bell"></i>
                   Notification
                 </Link>
@@ -95,25 +100,25 @@ export default function SiteLayout({ children }) {
                   Blood Status
                 </Link>
               </li> */}
-              <li style={{ backgroundColor: pathname === "/profile" ? "#E6F0F1" : pathname === "/usersProfile" ? "#E6F0F1" : pathname === "/viewBloodRecived" ? "#E6F0F1" :pathname === "/viewBloodDonation" ? "#E6F0F1" : pathname === "/friendList" ? "#E6F0F1" : "inherit" }}>
-                <Link to="/profile">
+              <li style={{ backgroundColor: pathname === "/adminProfile" ? "#E6F0F1" : pathname === "/adminUsersProfile" ? "#E6F0F1" : "inherit" }}>
+                <Link to="/adminProfile">
                   <i className="fa-sharp fa-solid fa-user "></i>Profile
                 </Link>
               </li>
-              <li style={{ backgroundColor: pathname === "/bloodBank" ? "#E6F0F1" : "inherit", }}>
-                <Link to="/bloodBank">
+              <li style={{ backgroundColor: pathname === "/adminBloodBank" ? "#E6F0F1" : pathname === "/addBloodBank" ? "#E6F0F1" : "inherit"}}>
+                <Link to="/adminBloodBank">
                   <i className="fa-sharp fa-solid fa-building-columns "></i>
                   Blood Bank
                 </Link>
               </li>
-              <li style={{ backgroundColor: pathname === "/donor" ? "#E6F0F1" : "inherit", }}>
-                <Link to="/donor">
+              <li style={{ backgroundColor: pathname === "/adminDonor" ? "#E6F0F1" : "inherit", }}>
+                <Link to="/adminDonor">
                   <i className="fa-sharp fa-solid fa-heart-circle-xmark "></i>
                   Donors
                 </Link>
               </li>
-              <li style={{ backgroundColor: pathname === "/conversation" ? "#E6F0F1" : "inherit", }}>
-                <Link to="/conversation">
+              <li style={{ backgroundColor: pathname === "/adminConversation" ? "#E6F0F1" : "inherit"}}>
+                <Link to="/adminConversation">
                 <i className="fa-solid fa-message"></i>
                   Conversation
                 </Link>
@@ -131,30 +136,11 @@ export default function SiteLayout({ children }) {
           <div className="forPC profileBar pt-4">
             <div className="d-flex">
               <div>
-                <img className="profileBarDP rounded-circle img-fluid" src="./images/profile/jacket.jpg" alt=""></img>
-              </div>
-              <div alt="" style={status}>
+                <img className="adminProfileBarDP img-fluid" src="images/logo/logo.jpg" alt=""></img>
               </div>
             </div>
-            <div className="profileBarInfo mt-3 ms-4 ">
-              <p>Farhan Hassan Jabil</p>
-              <p>
-                Blood Type: <b>O+</b>
-              </p>
-            </div>
-            <div className="form-check form-switch ms-4">
-              <div className="">
-                <div className=""></div>
-                <div className="">
-                  <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onClick={changeStatus} />
-                </div>
-                <div className="">
-                  <label className="form-check-label" htmlFor="flexSwitchCheckDefault">
-                    Available for donate
-                  </label>
-                </div>
-
-              </div>
+            <div className="adminProfileBarInfo">
+              <p><b>Blood Donors</b></p>
             </div>
             <div className="recentChats">
               <div className="card">
@@ -169,7 +155,7 @@ export default function SiteLayout({ children }) {
                         alt=""
                       ></img>
                     </div>
-                    <div alt="" style={chatStatus}></div>
+                    {/* <div alt="" style={chatStatus}></div> */}
                     <div className="ms-2" style={{ fontSize: "10px" }}>
                       Farhan Hassan Jabil
                       <br />
@@ -185,7 +171,7 @@ export default function SiteLayout({ children }) {
                         alt=""
                       ></img>
                     </div>
-                    <div alt="" style={chatStatus}></div>
+                    {/* <div alt="" style={chatStatus}></div> */}
                     <div className="ms-2" style={{ fontSize: "10px" }}>
                       Farhan Hassan Jabil
                       <br />
@@ -201,7 +187,7 @@ export default function SiteLayout({ children }) {
                         alt=""
                       ></img>
                     </div>
-                    <div alt="" style={chatStatus}></div>
+                    {/* <div alt="" style={chatStatus}></div> */}
                     <div className="ms-2" style={{ fontSize: "10px" }}>
                       Farhan Hassan Jabil
                       <br />
@@ -217,7 +203,7 @@ export default function SiteLayout({ children }) {
                         alt=""
                       ></img>
                     </div>
-                    <div alt="" style={chatStatus}></div>
+                    {/* <div alt="" style={chatStatus}></div> */}
                     <div className="ms-2" style={{ fontSize: "10px" }}>
                       Farhan Hassan Jabil
                       <br />

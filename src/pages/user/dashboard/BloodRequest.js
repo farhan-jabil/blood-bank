@@ -43,7 +43,6 @@ export default function BloodRequest() {
                         <Link to="/dashboard">
                         <button type="button" className="btn btn-primary">Yes</button>
                         </Link>
-                        
                       </div>
                     </div>
                   </div>
