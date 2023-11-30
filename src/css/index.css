@@ -1,0 +1,651 @@
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.topNav {
+  height: 45px;
+  color: white;
+  background-color: #de1f26;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2rem;
+  padding-bottom: 15px;
+}
+.topNav .topNavLeft {
+  padding-left: 200px;
+}
+.topNav .rightNavLeft {
+  padding-right: 50px;
+  margin-right: 150px;
+  font-size: 20px;
+}
+
+.bottomNav {
+  background-color: white;
+  position: sticky;
+  z-index: 1;
+  top: 0px;
+  box-shadow: 5px 0px 6px grey;
+}
+.bottomNav .logoImg {
+  margin-left: 160px;
+}
+.bottomNav .logoImg img {
+  height: 60px;
+  width: 300px;
+}
+.bottomNav .bottomNavRight {
+  margin-left: 180px;
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.vr {
+  background-color: white;
+}
+
+.hero .slick-next {
+  right: 100px;
+  z-index: 1;
+}
+.hero .slick-next::before {
+  font-size: 2rem;
+}
+.hero .slick-prev {
+  left: 100px;
+  z-index: 1;
+}
+.hero .slick-prev::before {
+  font-size: 2rem;
+}
+.hero .heroText {
+  color: white;
+  font-family: "montserrat";
+  font-weight: 450;
+  text-align: center;
+  font-size: 1.5rem;
+  width: 800px;
+  height: 300px;
+  position: absolute;
+  top: 240px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.hero .heroText .heroTextButton {
+  margin-top: 40px;
+  padding-right: 20px;
+}
+.hero .heroText .heroTextButton button {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 15px;
+  margin: 0px 10px;
+  width: 200px;
+  background-color: #de1f26;
+}
+.hero img {
+  height: 100%;
+  width: 100%;
+}
+
+.about {
+  padding-top: 100px;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+.about .aboutHeader {
+  color: grey;
+  font-size: 20px;
+  text-align: center;
+}
+.about .aboutBody {
+  padding: 50px 150px;
+}
+.about .aboutBody .aboutImage img {
+  height: 450px;
+  width: 520px;
+}
+
+.gallery {
+  padding-top: 100px;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: grey;
+  text-align: center;
+}
+.gallery .row {
+  margin: 0;
+  padding: 0;
+}
+.gallery .row img {
+  border-radius: 5%;
+  height: 200px;
+  width: 300px;
+  margin: 20px;
+}
+
+.contact {
+  background-color: #de1f26;
+  color: white;
+  margin-top: 100px;
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  padding: 0px 100px;
+}
+.contact .contact-info {
+  display: flex;
+}
+.contact .contact-info .contact-quick-links {
+  display: flex;
+  padding: 80px 80px;
+}
+.contact .contact-info .contact-quick-links .contact-informints {
+  margin-right: 100px;
+}
+.contact .contact-info .contact-quick-links .contact-informints .contact-infomints-data {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.contact .contact-info .contact-quick-links .contact-informints div {
+  margin-left: 15px;
+  display: inline-block;
+}
+.contact .contact-info .contact-quick-links .quick-links-products .quick-links .quick-links-list .quick-links-1 {
+  padding-right: 100px;
+}
+.contact .contact-info .contact-quick-links .quick-links-products .products .products-list .products-list-1 {
+  padding-right: 40px;
+}
+.contact .contact-info .quick-msg {
+  position: relative;
+  bottom: 90px;
+}
+.contact .contact-info .quick-msg .card {
+  color: black;
+  height: 400px;
+  width: 25rem;
+  box-shadow: 0 0 4px grey;
+}
+
+.signInUpBody {
+  margin-left: 200px;
+  margin-top: 15px;
+  width: 75%;
+}
+
+.signInTypes {
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.siteLayout {
+  padding: 30px;
+}
+.siteLayout .siteLayoutMain {
+  height: 100%;
+  width: 1470px;
+  border-radius: 15px;
+}
+.siteLayout .siteLayoutMain .sidebar {
+  width: 18rem;
+}
+.siteLayout .siteLayoutMain .sidebar .sidebarLogo {
+  padding: 0px 45px;
+}
+.siteLayout .siteLayoutMain .sidebar .sidebarLogo .siteLayoutLogo {
+  height: 40px;
+  width: 180px;
+}
+.siteLayout .siteLayoutMain .nav_list li {
+  height: 50px;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+.siteLayout .siteLayoutMain .nav_list li a {
+  color: #de1f26;
+}
+.siteLayout .siteLayoutMain .nav_list li i {
+  margin-right: 8px;
+}
+
+.siteLayoutMainBody {
+  width: 60rem;
+}
+.siteLayoutMainBody .siteLayoutBody {
+  background-color: #e6f0f1;
+  padding: 20px;
+}
+.siteLayoutMainBody .siteLayoutBody .personalInfo .card .card-body {
+  height: 26rem;
+}
+.siteLayoutMainBody .siteLayoutBody .personalInfo .card .card-body .personalInfoHeader {
+  display: flex;
+}
+.siteLayoutMainBody .siteLayoutBody .personalInfo .card .card-body .personalInfoHeader .modal-content .modal-header button {
+  margin-left: 0px;
+}
+.siteLayoutMainBody .siteLayoutBody .personalInfo .card .card-body .personalInfoHeader .modal-content .modal-footer button {
+  margin-left: 10px;
+}
+.siteLayoutMainBody .siteLayoutBody .personalInfo .card .card-body .personalInfoHeader button {
+  margin-left: 44rem;
+}
+.siteLayoutMainBody .siteLayoutBody .personalInfo .card .card-body .personalInfoMainBody {
+  display: flex;
+  height: 22rem;
+}
+.siteLayoutMainBody .siteLayoutBody .personalInfo .card .card-body .personalInfoMainBody .personalInfoMain {
+  width: 28rem;
+}
+.siteLayoutMainBody .siteLayoutBody .personalInfo .card .card-body .personalInfoMainBody .personalInfoMain .personalInfoBody {
+  margin: 10px 30px 10px 0px;
+  display: flex;
+  padding: 10px 0px;
+}
+.siteLayoutMainBody .siteLayoutBody .personalInfo .card .card-body .personalInfoMainBody .personalInfoMain .profileOnlineStatus {
+  display: none;
+}
+.siteLayoutMainBody .siteLayoutBody .personalInfo .card .card-body .personalInfoMainBody .personalInfoMain .personalInfoBio {
+  margin-right: 20px;
+  margin-top: 10px;
+  height: 10rem;
+  overflow: auto;
+}
+.siteLayoutMainBody .siteLayoutBody .personalInfo .card .card-body .personalInfoMainBody .personalInfoContact {
+  padding-left: 50px;
+  width: 22rem;
+}
+.siteLayoutMainBody .siteLayoutBody .donorSearch {
+  margin-left: 10px;
+  margin-top: 30px;
+}
+.siteLayoutMainBody .siteLayoutBody .donorSearch .card-body .card-title span {
+  font-size: 15px;
+  margin-left: 80px;
+}
+.siteLayoutMainBody .siteLayoutBody .donorTable {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.siteLayoutMainBody .siteLayoutBody .bloodRecivedDonatedBody {
+  font-size: 18px;
+  display: flex;
+  margin: 15px 0px;
+  padding: 15px;
+  border-radius: 5px;
+}
+.siteLayoutMainBody .siteLayoutBody .bloodRecivedDonatedBody img {
+  height: 70px;
+  margin-top: 40px;
+}
+.siteLayoutMainBody .siteLayoutBody .bloodRecivedDonatedBody p {
+  margin: 7px 0px;
+}
+.siteLayoutMainBody .siteLayoutBody .addedUser {
+  font-size: 18px;
+  display: flex;
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 5px;
+}
+.siteLayoutMainBody .siteLayoutBody .addedUser img {
+  height: 70px;
+}
+.siteLayoutMainBody .siteLayoutBody .friendListBody {
+  font-size: 18px;
+  display: flex;
+  margin: 15px 0px;
+  padding: 15px;
+  border-radius: 5px;
+}
+.siteLayoutMainBody .siteLayoutBody .friendListBody img {
+  height: 70px;
+  margin-top: 20px;
+}
+.siteLayoutMainBody .siteLayoutBody .friendListBody p {
+  margin: 7px 0px;
+}
+.siteLayoutMainBody .siteLayoutBody .userProfileInfo {
+  font-size: 18px;
+}
+.siteLayoutMainBody .siteLayoutBody .bloodRequestorInformation .card .card-body .card-text {
+  font-size: 18px;
+}
+.siteLayoutMainBody .siteLayoutBody .conversationBody {
+  background-color: white;
+}
+.siteLayoutMainBody .siteLayoutBody .conversationBody .conversationSidebar {
+  height: 35rem;
+  width: 16rem;
+}
+.siteLayoutMainBody .siteLayoutBody .conversationBody .conversationSidebar .convo_list {
+  height: 32rem;
+  width: 16rem;
+  overflow: auto;
+  padding: 0px 5px;
+}
+.siteLayoutMainBody .siteLayoutBody .conversationBody .conversationSidebar .convo_list li {
+  height: 50px;
+  width: 220px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.siteLayoutMainBody .siteLayoutBody .conversationBody .conversationSidebar .convo_list li i {
+  margin-right: 8px;
+}
+.siteLayoutMainBody .siteLayoutBody .conversationBody .conversationSidebar .convo_list li img {
+  height: 30px;
+  margin-right: 15px;
+}
+.siteLayoutMainBody .siteLayoutBody .conversationBody .conversationSidebar .convo_list button {
+  font-size: 10px;
+}
+.siteLayoutMainBody .siteLayoutBody .conversationBody .conversationChat {
+  width: 40rem;
+  height: 35rem;
+  box-shadow: 0px 0px 5px grey;
+}
+.siteLayoutMainBody .siteLayoutBody .conversationBody .conversationChat img {
+  width: 4rem;
+  height: 4rem;
+}
+.siteLayoutMainBody .siteLayoutBody .conversationBody .conversationChat nav {
+  box-shadow: 0px 1px 5px grey;
+}
+.siteLayoutMainBody .siteLayoutBody .conversationBody .conversationChat .conversationChatBody {
+  height: 25rem;
+  overflow: auto;
+}
+.siteLayoutMainBody .siteLayoutBody .conversationBody .conversationChat .conversationChatBody .otherChat img {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
+.siteLayoutMainBody .siteLayoutBody .conversationBody .conversationChat .conversationChatBody .otherChat .conversationChatBox {
+  background-color: #e8ecf0;
+  display: inline-block;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 0px 15px;
+}
+.siteLayoutMainBody .siteLayoutBody .conversationBody .conversationChat .conversationChatBody .myChat {
+  text-align: right;
+}
+.siteLayoutMainBody .siteLayoutBody .conversationBody .conversationChat .conversationChatBody .myChat img {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
+.siteLayoutMainBody .siteLayoutBody .conversationBody .conversationChat .conversationChatBody .myChat .conversationChatBox {
+  background-color: #c6e2ff;
+  display: inline-block;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 0px 15px;
+}
+.siteLayoutMainBody .siteLayoutBody .conversationBody .conversationChat .conversationText {
+  padding: 10px 0px 10px 20px;
+}
+.siteLayoutMainBody .siteLayoutBody .conversationBody .conversationChat .conversationText input {
+  width: 85%;
+  display: inline-block;
+}
+.siteLayoutMainBody .siteLayoutBody .requestBloodHeader h5 {
+  margin-right: 530px;
+}
+.siteLayoutMainBody .siteLayoutBody .dashboardHeader {
+  margin-bottom: 15px;
+  display: flex;
+}
+.siteLayoutMainBody .siteLayoutBody .dashboardHeader .notification i {
+  padding-top: 5px;
+  padding-left: 5px;
+  margin-left: 740px;
+  color: white;
+  background-color: #de1f26;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+}
+.siteLayoutMainBody .siteLayoutBody .dashboardHeader .notification .card {
+  position: absolute;
+  z-index: 1;
+  width: 15rem;
+  right: 20rem;
+  display: none;
+}
+.siteLayoutMainBody .siteLayoutBody .dashboardHeader .notification .card .card-body {
+  padding: 15px 15px 7px 15px;
+}
+.siteLayoutMainBody .siteLayoutBody .dashboardHeader .notification .card .card-body p {
+  margin-bottom: 7px;
+}
+.siteLayoutMainBody .siteLayoutBody .dashboardBody .companyStatus {
+  height: 55rem;
+}
+.siteLayoutMainBody .siteLayoutBody .notificationBody .notificationTypes {
+  display: flex;
+}
+.siteLayoutMainBody .siteLayoutBody .notificationBody .notificationTypes .donorNotification,
+.siteLayoutMainBody .siteLayoutBody .notificationBody .notificationTypes .receiverNotification,
+.siteLayoutMainBody .siteLayoutBody .notificationBody .notificationTypes .friendNotification {
+  font-size: 20px;
+  display: block;
+  margin: auto;
+}
+.siteLayoutMainBody .siteLayoutBody .notificationBody .notificationTypes .donorNotification a:focus,
+.siteLayoutMainBody .siteLayoutBody .notificationBody .notificationTypes .receiverNotification a:focus,
+.siteLayoutMainBody .siteLayoutBody .notificationBody .notificationTypes .friendNotification a:focus {
+  color: #de1f26;
+}
+
+.modal-content {
+  width: 40rem;
+}
+
+.donorRequestTrash {
+  color: #de1f26;
+}
+
+.requestTable {
+  text-align: center;
+}
+
+.reportChart {
+  margin: 15px 45px;
+  width: 70%;
+}
+
+.card-text {
+  background-color: #e6f0f1;
+  font-size: 15px;
+  color: black;
+}
+
+.donationStatistics .card .card-body .donationStatisticsHeader {
+  display: flex;
+  flex-direction: row;
+}
+.donationStatistics .card .card-body .chart {
+  padding: 20px 0px;
+}
+
+.bloodGroup {
+  display: inline;
+  position: relative;
+  left: 4px;
+  height: 25px;
+  color: white;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #de1f26;
+  margin-top: -4px;
+  font-size: 12px;
+  text-align: center;
+  padding: 2px 10px;
+}
+
+.recentBloodRecived .viewAll {
+  margin-left: 35px;
+  font-size: 12px;
+}
+
+.recentBloodDoantion .viewAll {
+  margin-left: 25px;
+  font-size: 12px;
+}
+
+.friendListHeader .viewAll {
+  margin-left: 120px;
+  font-size: 12px;
+}
+
+.forPhone {
+  display: none;
+}
+
+.forPC {
+  display: inline;
+}
+
+.bloodBankBody {
+  padding-left: 40px;
+}
+.bloodBankBody .row {
+  margin-top: 25px;
+}
+.bloodBankBody .row .card {
+  height: 16rem;
+}
+.bloodBankBody .row .card .card-body .card-title {
+  height: 5rem;
+}
+.bloodBankBody .row .card .card-body a {
+  display: block;
+  position: absolute;
+  bottom: 15px;
+  left: 45px;
+}
+
+.donorChart {
+  position: relative;
+  right: 35px;
+}
+
+.chatTime {
+  display: inline;
+  position: absolute;
+  right: 15px;
+  color: black;
+  margin-top: -4px;
+  font-size: 10px;
+  text-align: center;
+  padding: 2px 5px;
+}
+
+.chatTimeDP img {
+  height: 25px;
+}
+
+.emergencyRequest {
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  background-color: #de1f26;
+}
+
+.recentBloodRequest .card {
+  width: 20rem;
+  /* height: 29rem;
+  overflow: auto; */
+}
+
+.recentUsers {
+  width: 20rem;
+  height: 22rem;
+}
+.recentUsers a {
+  margin-left: 120px;
+}
+
+.requestBody {
+  height: 24rem;
+  padding: 0px 10px;
+  overflow: auto;
+}
+.requestBody .dashboard-card-text {
+  width: 180px;
+}
+
+.recentBloodDonor .card {
+  width: 20rem;
+  height: 22rem;
+  overflow: auto;
+  margin-top: 22px;
+}
+.recentBloodDonor .card .dashboard-card-text {
+  width: 180px;
+}
+
+.profileBarDP {
+  height: 150px;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+
+.profileBar {
+  width: 16rem;
+}
+.profileBar .adminProfileBarInfo {
+  margin-top: 25px;
+  padding-left: 70px;
+}
+.profileBar .adminProfileBarDP {
+  height: 70px;
+  width: 190px;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+.profileBar .recentChats {
+  margin: 25px 0px;
+}
+.profileBar .recentChats .card {
+  width: 15rem;
+  height: 18rem;
+  margin: 25px 10px;
+  overflow: auto;
+}
+
+.form {
+  margin-top: 70px;
+  padding: 0 200px;
+}
+
+.footer {
+  color: black;
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  padding: 0px 30px 15px 30px;
+  margin-top: 40px;
+  text-align: center;
+}
+.footer hr {
+  background-color: black;
+}
+
+.emergencyBloodRequest {
+  width: 40%;
+}
+
+.compulsoryStar {
+  color: #de1f26;
+}/*# sourceMappingURL=index.css.map */

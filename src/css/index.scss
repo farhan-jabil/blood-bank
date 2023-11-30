@@ -1,0 +1,726 @@
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.topNav {
+  height: 45px;
+  color: white;
+  background-color: #de1f26;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2rem;
+  padding-bottom: 15px;
+  .topNavLeft {
+    padding-left: 200px;
+  }
+  .rightNavLeft {
+    padding-right: 50px;
+    margin-right: 150px;
+    font-size: 20px;
+  }
+}
+
+.bottomNav {
+  background-color: white;
+  position: sticky;
+  z-index: 1;
+  top: 0px;
+  box-shadow: 5px 0px 6px grey;
+  .logoImg {
+    margin-left: 160px;
+    img {
+      height: 60px;
+      width: 300px;
+    }
+  }
+  .bottomNavRight {
+    margin-left: 180px;
+    font-family: "Merriweather", serif;
+    font-weight: 600;
+    font-size: 18px;
+  }
+}
+
+.vr {
+  background-color: white;
+}
+
+.hero {
+  .slick-next {
+    right: 100px;
+    z-index: 1;
+    &::before{
+      font-size: 2rem;
+    }
+  }
+
+  .slick-prev {
+    left: 100px;
+    z-index: 1;
+    &::before{
+      font-size: 2rem;
+    }
+  }
+  // #heroSliderButton1 {
+  //   position: absolute;
+  //   top: 360px;
+  //   left: 100px;
+  // }
+  // #heroSliderButton2 {
+  //   position: absolute;
+  //   top: 360px;
+  //   right: 100px;
+  // }
+  .heroText {
+    color: white;
+    font-family: "montserrat";
+    font-weight: 450;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 800px;
+    height: 300px;
+    position: absolute;
+    // top: 0;
+    // bottom: 0;
+    top: 240px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    .heroTextButton {
+      margin-top: 40px;
+      padding-right: 20px;
+      button {
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px 15px;
+        margin: 0px 10px;
+        width: 200px;
+        background-color: #de1f26;
+      }
+    }
+  }
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.about {
+  padding-top: 100px;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-size: 18px;
+  .aboutHeader {
+    color: grey;
+    font-size: 20px;
+    text-align: center;
+  }
+  .aboutBody {
+    padding: 50px 150px;
+    .aboutImage {
+      img {
+        height: 450px;
+        width: 520px;
+      }
+    }
+  }
+}
+
+.gallery {
+  padding-top: 100px;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: grey;
+  text-align: center;
+  .row {
+    margin: 0;
+    padding: 0;
+    img {
+      border-radius: 5%;
+      height: 200px;
+      width: 300px;
+      margin: 20px;
+    }
+  }
+}
+
+.contact {
+  background-color: #de1f26;
+  color: white;
+  margin-top: 100px;
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  padding: 0px 100px;
+
+  .contact-info {
+    display: flex;
+    .contact-quick-links {
+      display: flex;
+      padding: 80px 80px;
+      .contact-informints {
+        margin-right: 100px;
+        .contact-infomints-data {
+          margin-top: 8px;
+          margin-bottom: 8px;
+        }
+        div {
+          margin-left: 15px;
+          display: inline-block;
+        }
+      }
+      .quick-links-products {
+        .quick-links {
+          .quick-links-list {
+            .quick-links-1 {
+              padding-right: 100px;
+            }
+          }
+        }
+        .products {
+          .products-list {
+            .products-list-1 {
+              padding-right: 40px;
+            }
+          }
+        }
+      }
+    }
+    .quick-msg {
+      position: relative;
+      bottom: 90px;
+      .card {
+        color: black;
+        height: 400px;
+        width: 25rem;
+        box-shadow: 0 0 4px grey;
+      }
+    }
+  }
+}
+
+.signInUpBody {
+  margin-left: 200px;
+  margin-top: 15px;
+  width: 75%;
+}
+
+.signInTypes {
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.siteLayout {
+  padding: 30px;
+  .siteLayoutMain {
+    height: 100%;
+    width: 1470px;
+    border-radius: 15px;
+    .sidebar {
+      width: 18rem;
+      .sidebarLogo {
+        padding: 0px 45px;
+        .siteLayoutLogo {
+          height: 40px;
+          width: 180px;
+        }
+      }
+    }
+    .nav_list {
+      li {
+        height: 50px;
+        padding-top: 10px;
+        padding-left: 15px;
+        a {
+          color: #de1f26;
+        }
+        i {
+          margin-right: 8px;
+        }
+      }
+    }
+  }
+}
+
+.siteLayoutMainBody {
+  width: 60rem;
+  .siteLayoutBody {
+    background-color: #e6f0f1;
+    padding: 20px;
+    .personalInfo {
+      .card {
+        .card-body {
+          height: 26rem;
+          .personalInfoHeader {
+            display: flex;
+            .modal-content {
+              .modal-header {
+                button {
+                  margin-left: 0px;
+                }
+              }
+              .modal-footer {
+                button {
+                  margin-left: 10px;
+                }
+              }
+            }
+            button {
+              margin-left: 44rem;
+            }
+          }
+          .personalInfoMainBody {
+            display: flex;
+            height: 22rem;
+            .personalInfoMain {
+              width: 28rem;
+              .personalInfoBody {
+                margin: 10px 30px 10px 0px;
+                display: flex;
+                padding: 10px 0px;
+              }
+              .profileOnlineStatus {
+                display: none;
+              }
+              .personalInfoBio {
+                margin-right: 20px;
+                margin-top: 10px;
+                height: 10rem;
+                overflow: auto;
+              }
+            }
+            .personalInfoContact {
+              padding-left: 50px;
+              width: 22rem;
+            }
+          }
+        }
+      }
+    }
+    .donorSearch {
+      margin-left: 10px;
+      margin-top: 30px;
+      .card-body {
+        .card-title {
+          span {
+            font-size: 15px;
+            margin-left: 80px;
+          }
+        }
+      }
+    }
+    .donorTable {
+      margin-left: 50px;
+      margin-top: 30px;
+    }
+    .bloodRecivedDonatedBody {
+      font-size: 18px;
+      display: flex;
+      margin: 15px 0px;
+      padding: 15px;
+      border-radius: 5px;
+      img {
+        height: 70px;
+        margin-top: 40px;
+      }
+      p {
+        margin: 7px 0px;
+      }
+    }
+    .addedUser {
+      font-size: 18px;
+      display: flex;
+      margin-top: 15px;
+      padding: 15px;
+      border-radius: 5px;
+      img {
+        height: 70px;
+      }
+    }
+    .friendListBody {
+      font-size: 18px;
+      display: flex;
+      margin: 15px 0px;
+      padding: 15px;
+      border-radius: 5px;
+      img {
+        height: 70px;
+        margin-top: 20px;
+      }
+      p {
+        margin: 7px 0px;
+      }
+    }
+    .userProfileInfo {
+      font-size: 18px;
+    }
+    .bloodRequestorInformation {
+      .card {
+        .card-body {
+          .card-text {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+    .conversationBody {
+      background-color: white;
+      .conversationSidebar {
+        height: 35rem;
+        width: 16rem;
+        .convo_list {
+          height: 32rem;
+          width: 16rem;
+          overflow: auto;
+          padding: 0px 5px;
+          li {
+            height: 50px;
+            width: 220px;
+            padding: 10px;
+            border-radius: 5px;
+            i {
+              margin-right: 8px;
+            }
+            img {
+              height: 30px;
+              margin-right: 15px;
+            }
+          }
+          button {
+            font-size: 10px;
+          }
+        }
+      }
+      .conversationChat {
+        width: 40rem;
+        height: 35rem;
+        box-shadow: 0px 0px 5px grey;
+        img {
+          width: 4rem;
+          height: 4rem;
+        }
+        nav {
+          box-shadow: 0px 1px 5px grey;
+        }
+        .conversationChatBody {
+          height: 25rem;
+          overflow: auto;
+          .otherChat {
+            img {
+              height: 4rem;
+              width: 4rem;
+              border-radius: 50%;
+            }
+            .conversationChatBox {
+              background-color: #e8ecf0;
+              display: inline-block;
+              padding: 15px;
+              border-radius: 5px;
+              margin: 0px 15px;
+            }
+          }
+          .myChat {
+            text-align: right;
+            img {
+              height: 4rem;
+              width: 4rem;
+              border-radius: 50%;
+            }
+            .conversationChatBox {
+              background-color: #c6e2ff;
+              display: inline-block;
+              padding: 15px;
+              border-radius: 5px;
+              margin: 0px 15px;
+            }
+          }
+        }
+        .conversationText {
+          padding: 10px 0px 10px 20px;
+          input {
+            width: 85%;
+            display: inline-block;
+          }
+        }
+      }
+    }
+    .requestBloodHeader {
+      h5 {
+        margin-right: 530px;
+      }
+    }
+    .dashboardHeader {
+      margin-bottom: 15px;
+      display: flex;
+      .notification {
+        i {
+          padding-top: 5px;
+          padding-left: 5px;
+          margin-left: 740px;
+          color: white;
+          background-color: #de1f26;
+          border-radius: 50%;
+          height: 25px;
+          width: 25px;
+        }
+        .card {
+          position: absolute;
+          z-index: 1;
+          width: 15rem;
+          right: 20rem;
+          display: none;
+          .card-body {
+            padding: 15px 15px 7px 15px;
+            p {
+              margin-bottom: 7px;
+            }
+          }
+        }
+      }
+    }
+    .dashboardBody {
+      .companyStatus {
+        height: 55rem;
+      }
+    }
+    .notificationBody {
+      .notificationTypes {
+        display: flex;
+        .donorNotification,
+        .receiverNotification,
+        .friendNotification {
+          font-size: 20px;
+          display: block;
+          margin: auto;
+          a:focus {
+            color: #de1f26;
+          }
+        }
+      }
+    }
+  }
+}
+
+.modal-content {
+  width: 40rem;
+}
+
+.donorRequestTrash {
+  color: #de1f26;
+}
+
+.requestTable {
+  text-align: center;
+}
+
+.reportChart {
+  margin: 15px 45px;
+  width: 70%;
+}
+
+.card-text {
+  background-color: #e6f0f1;
+  font-size: 15px;
+  color: black;
+}
+
+.donationStatistics {
+  .card {
+    .card-body {
+      .donationStatisticsHeader {
+        display: flex;
+        flex-direction: row;
+      }
+      .chart {
+        padding: 20px 0px;
+      }
+    }
+  }
+}
+
+.bloodGroup {
+  display: inline;
+  position: relative;
+  left: 4px;
+  height: 25px;
+  color: white;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #de1f26;
+  margin-top: -4px;
+  font-size: 12px;
+  text-align: center;
+  padding: 2px 10px;
+}
+
+.recentBloodRecived .viewAll {
+  margin-left: 35px;
+  font-size: 12px;
+}
+
+.recentBloodDoantion .viewAll {
+  margin-left: 25px;
+  font-size: 12px;
+}
+
+.friendListHeader .viewAll {
+  margin-left: 120px;
+  font-size: 12px;
+}
+
+.forPhone {
+  display: none;
+}
+
+.forPC {
+  display: inline;
+}
+
+.bloodBankBody {
+  padding-left: 40px;
+  .row {
+    margin-top: 25px;
+    .card {
+      height: 16rem;
+      .card-body {
+        .card-title {
+          height: 5rem;
+        }
+        a {
+          display: block;
+          position: absolute;
+          bottom: 15px;
+          left: 45px;
+        }
+      }
+    }
+  }
+}
+
+.donorChart {
+  position: relative;
+  right: 35px;
+}
+
+.chatTime {
+  display: inline;
+  position: absolute;
+  right: 15px;
+  color: black;
+  margin-top: -4px;
+  font-size: 10px;
+  text-align: center;
+  padding: 2px 5px;
+}
+
+.chatTimeDP img {
+  height: 25px;
+}
+
+.emergencyRequest {
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  background-color: #de1f26;
+}
+
+.recentBloodRequest {
+  .card {
+    width: 20rem;
+    /* height: 29rem;
+    overflow: auto; */
+  }
+}
+
+.recentUsers {
+  width: 20rem;
+  height: 22rem;
+  a {
+    margin-left: 120px;
+  }
+}
+
+.requestBody {
+  height: 24rem;
+  padding: 0px 10px;
+  overflow: auto;
+  .dashboard-card-text {
+    width: 180px;
+  }
+}
+
+.recentBloodDonor {
+  .card {
+    width: 20rem;
+    height: 22rem;
+    overflow: auto;
+    margin-top: 22px;
+    .dashboard-card-text {
+      width: 180px;
+    }
+  }
+}
+
+.profileBarDP {
+  height: 150px;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+
+.profileBar {
+  width: 16rem;
+  .adminProfileBarInfo {
+    margin-top: 25px;
+    padding-left: 70px;
+  }
+  // .profileBarDP {
+  //   height: 150px;
+  //   margin-top: 15px;
+  //   margin-left: 50px;
+  // }
+  .adminProfileBarDP {
+    height: 70px;
+    width: 190px;
+    margin-top: 15px;
+    margin-left: 30px;
+  }
+  .recentChats {
+    margin: 25px 0px;
+    .card {
+      width: 15rem;
+      height: 18rem;
+      margin: 25px 10px;
+      overflow: auto;
+    }
+  }
+}
+
+.form {
+  margin-top: 70px;
+  padding: 0 200px;
+}
+
+.footer {
+  color: black;
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  padding: 0px 30px 15px 30px;
+  margin-top: 40px;
+  text-align: center;
+  hr {
+    background-color: black;
+  }
+}
+
+.emergencyBloodRequest {
+  width: 40%;
+}
+
+.compulsoryStar {
+  color: #de1f26;
+}

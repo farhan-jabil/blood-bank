@@ -1,0 +1,41 @@
+@media(max-width: 1023px) and (min-width: 500px) {
+    /* .siteLayoutMain{
+        
+    } */
+
+    .sidebar {
+        /* width: 15rem; */
+    }
+
+    .nav_list li {
+        height: 20px;
+        padding: 5px;
+        font-size: 6px;
+    }
+
+    .nav_list li a{
+        color: #DE1F26;
+    }
+
+    .nav_list li i{
+        margin: 0px 3px 0px 5px;
+    }
+
+    .sidebarLogo{
+        padding: 0px 35px;
+      }
+      
+      .siteLayoutLogo{
+        height: 30px;
+        width: 125px;
+      } 
+
+    .signInUpBody{
+        margin-left: 100px;
+        margin-top: 15px;
+        padding-top: 20px;
+        width: 75%;
+    }
+
+
+}

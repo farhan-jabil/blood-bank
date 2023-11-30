@@ -1,0 +1,442 @@
+@media (max-width: 499px) {
+
+  .siteLayoutMain {
+    height: 100%;
+    width: 380px;
+    border-radius: 15px;
+  }
+
+  .siteLayout {
+    padding: 5px;
+  }
+
+  .siteLayoutMainBody {
+    width: 19rem;
+  }
+
+  .sidebar {
+    width: 4rem;
+  }
+
+  .siteLayoutBody {
+    background-color: #E6F0F1;
+    padding: 10px;
+  }
+
+  .nav_list {
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav_list li {
+    height: 25px;
+    padding: 5px 3px;
+    font-size: 8px;
+  }
+
+  .nav_list li a {
+    color: #DE1F26;
+  }
+
+  .nav_list li i {
+    display: inline;
+    margin: 0px 5px 0px 0px;
+  }
+
+  .sidebarLogo {
+    padding: 0px 5px;
+  }
+
+  .siteLayoutLogo {
+    height: 20px;
+    width: 50px;
+  }
+
+  .profileBar {
+    width: 5rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .recentBloodRequest .card {
+    width: 18rem;
+    margin-bottom: 25px;
+    overflow: auto;
+  }
+
+  .viewAll {
+    margin-left: 45px;
+    font-size: 10px;
+  }
+
+  .recentBloodDonor .card {
+    width: 18rem;
+    margin-bottom: 25px;
+    margin-top: 0px;
+  }
+
+  .recentBloodRecived {
+    margin-bottom: 15px;
+  }
+
+  .card-text {
+    background-color: #E6F0F1;
+    font-size: 12px;
+    color: black;
+  }
+
+  .signInUpBody {
+    margin-left: 70px;
+    margin-top: 15px;
+    padding-top: 15px;
+    width: 75%;
+  }
+
+  .donationStatisticsHeader {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .donationStatistics {
+    margin-left: 0px;
+  }
+
+  .profileBarDP {
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 12px;
+  }
+
+  .chatTimeDP img {
+    height: 19px;
+  }
+
+
+  .personalInfo {
+    margin-bottom: 15px;
+    height: 30rem;
+    width: 20rem;
+  }
+
+  .personalInfo .card {
+    height: 30rem;
+  }
+
+  .personalInfoHeader {
+    flex-direction: row;
+  }
+
+  .personalInfoHeader button {
+    margin-left: 100px;
+  }
+
+  .personalInfo .card .card-body {
+    width: 18rem;
+  }
+
+  .personalInfoBio {
+    margin-right: 5px;
+    margin-top: 10px;
+    height: 15rem;
+  }
+
+  .personalInfoBody {
+    margin: 15px 0px 20px 0px;
+    display: flex;
+    padding: 0px;
+  }
+
+  .contactInfo {
+    width: 18rem;
+    margin: 0px 0px 20px 0px;
+    padding: 0;
+  }
+
+  .aboutBody {
+    padding: 0px 0px;
+  }
+
+  .aboutBody .row{
+    margin: 0;
+    padding: 0;
+  }
+
+  .aboutText {
+    padding: 50px 20px;
+  }
+
+  .aboutImage img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .lastDonationReport .card {
+    width: 17rem;
+  }
+
+  .lastDonationReport {
+    width: 18rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .contactInfo .card {
+    width: 17rem;
+  }
+
+  .forPhone {
+    display: block;
+  }
+
+  .forPC {
+    display: none;
+  }
+
+  .profileOnlineStatus {
+    margin: 20px 0px;
+  }
+
+  .userProfileInfo{
+    font-size: 15px;
+  }
+
+  .contactInfoHeader h6 button {
+    margin-left: 0px;
+  }
+
+  .bloodBankBody {
+    padding: 10px 30px;
+  }
+
+  .bloodBankBody .row {
+    margin-top: 0px;
+  }
+
+  .bloodBankBody .row .card {
+    margin-bottom: 20px;
+  }
+
+  .bloodBankSearch {
+    margin-top: 15px;
+  }
+
+  .chart {
+    padding: 20px 5px;
+  }
+
+  .donorSearch {
+    margin: 20px 10px;
+    width: 18rem;
+
+  }
+
+  .donorSearch .card-body .card-title span {
+    margin-left: 130px;
+  }
+
+  .donorTable {
+    margin: 10px 10px;
+    width: 18rem;
+  }
+
+  .donorTable .card-body {
+    padding: 10px 0 0 0;
+  }
+
+  .reportChart {
+    margin: 10px 30px;
+  }
+
+  .topNav {
+    height: 55px;
+    padding-bottom: 15px;
+  }
+
+  .topNavLeft {
+    padding-left: 10px;
+    font-size: 15px;
+  }
+
+  .rightNavLeft {
+    padding-right: 0px;
+    margin-right: 10px;
+    font-size: 15px;
+  }
+
+  .logoImg {
+    margin-left: 0px;
+    width: 100px;
+  }
+
+  .logoImg img {
+    height: 40px;
+    width: 200px;
+  }
+
+  .bottomNavRight {
+    margin-left: 0px;
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+  }
+
+  .bottomNav {
+    background-color: white;
+    position: sticky ;
+    z-index: 1;
+    top: 0px;
+    box-shadow: 0px 0px 0px grey;
+  
+  }
+
+  .footer {
+    font-size: 15px;
+    padding: 0px 10px;
+  }
+
+  .footer hr {
+    background-color: black;
+    margin-bottom: 20px;
+  }
+
+  .contact {
+    margin-top: 0px;
+    font-size: 12px;
+    padding: 0px 0px;
+  }
+
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-informints {
+    margin-right: 100px;
+  }
+
+
+  .contact-quick-links {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 80px;
+  }
+
+  .quick-msg {
+    position: relative;
+    bottom: 20px;
+  }
+
+  .quick-msg .card {
+    color: black;
+    height: 400px;
+    width: 20rem;
+    margin-left: 40px;
+    box-shadow: 0 0 4px grey;
+  }
+
+  #heroSliderButton1 {
+    position: absolute;
+    top: 250px;
+    left: 10px
+  }
+  
+  #heroSliderButton2 {
+    position: absolute;
+    top: 250px;
+    right: 10px
+  }
+
+  .hero{
+    width: 100%;
+    height: 300px;
+  }
+
+  .heroText {
+    color: white;
+    font-family: "montserrat";
+    font-weight: 450;
+    text-align: center;
+    padding: 0 50px;
+    font-size: 12px;
+    position: absolute;
+    top: 170px;
+  }
+
+  .heroText h1{
+    font-size: 20px;
+  }
+  
+  .heroTextButton {
+    margin-top: 25px;
+    padding-right: 0px;
+  }
+  
+  .heroTextButton button {
+    font-size: 10px;
+    width: 120px;
+  }
+
+  .emergencyBloodRequest{
+    width: 80%;
+  }
+
+  .bloodRecivedDonatedBody{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+    padding: 5px;
+    border-radius: 15px;
+  }
+  
+  .bloodRecivedDonatedBody img{
+    height: 70px;
+    width: 70px;
+    display: block;
+    margin: 10px auto;
+  }
+  
+  .bloodRecivedDonatedBody p{
+    margin: 7px 0px;
+  }
+
+  .bloodRequestorInformation .card .card-body .card-text{
+    font-size: 15px;
+  }
+
+  .conversationSidebar{
+    height: 30rem;
+  }
+
+  .convo_list{
+    height: 27rem;
+    width: 30rem;
+  }
+
+  .convo_list li {
+    height: 50px;
+    width: 16rem;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .convoButton{
+    width: 3rem;
+    height: 1rem;
+    margin-left: 24px;
+    margin-top: 6px;
+    font-size: 8px;
+    padding: 0px;
+  }
+
+  .requestBloodHeader{
+    flex-direction: column;
+    font-size: 12px;
+  }
+
+  .requestBloodHeader h5{
+    margin-right: 0px;
+  }
+  
+
+}

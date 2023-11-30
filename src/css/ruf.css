@@ -1,0 +1,734 @@
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.topNav {
+  height: 45px;
+  color: white;
+  background-color: #DE1F26;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+  padding-bottom: 15px;
+}
+
+.topNavLeft {
+  padding-left: 200px;
+}
+
+.rightNavLeft {
+  padding-right: 50px;
+  margin-right: 150px;
+  font-size: 20px;
+}
+
+.bottomNav {
+  background-color: white;
+  position: sticky;
+  z-index: 1;
+  top: 0px;
+  box-shadow: 5px 0px 6px grey;
+}
+
+
+.bottomNavRight {
+  margin-left: 320px;
+  font-family: 'Merriweather', serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.logoImg {
+  margin-left: 160px;
+}
+
+.logoImg img {
+  height: 60px;
+  width: 300px;
+}
+
+.vr {
+  background-color: white;
+}
+
+.hero img {
+  height: 100%;
+  width: 100%;
+}
+
+.heroText {
+  color: white;
+  font-family: "montserrat";
+  font-weight: 450;
+  text-align: center;
+  padding: 0 300px;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 380px;
+}
+
+.heroTextButton {
+  margin-top: 20px;
+  padding-right: 20px;
+}
+
+.heroTextButton button {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 15px;
+  margin: 0px 10px;
+  width: 200px;
+  background-color: #DE1F26;
+}
+
+#heroSliderButton1 {
+  position: absolute;
+  top: 360px;
+  left: 100px
+}
+
+#heroSliderButton2 {
+  position: absolute;
+  top: 360px;
+  right: 100px
+}
+
+.about {
+  padding-top: 100px;
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.aboutHeader {
+  color: grey;
+  font-size: 20px;
+  text-align: center;
+}
+
+.aboutBody {
+  padding: 50px 150px;
+}
+
+.aboutImage img {
+  height: 450px;
+  width: 520px;
+
+}
+
+.gallery {
+  padding-top: 100px;
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: grey;
+  text-align: center;
+}
+
+.galleryImages .row {
+  margin: 0;
+  padding: 0;
+}
+
+.galleryImages img {
+  border-radius: 5%;
+  height: 200px;
+  width: 300px;
+  margin: 20px;
+}
+
+.contact {
+  background-color: #DE1F26;
+  color: white;
+  margin-top: 100px;
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  padding: 0px 100px;
+}
+
+.contact-info {
+  display: flex;
+}
+
+.contact-quick-links {
+  display: flex;
+  padding: 80px 80px;
+}
+
+.contact-informints {
+  margin-right: 100px;
+}
+
+.contact-infomints-data {
+  margin: 8px 0px;
+}
+
+.contact-informints div {
+  margin-left: 15px;
+  display: inline-block;
+}
+
+.quick-links-1 {
+  padding-right: 100px;
+}
+
+.products-list-1 {
+  padding-right: 40px;
+}
+
+.quick-msg {
+  position: relative;
+  bottom: 90px;
+}
+
+.quick-msg .card {
+  color: black;
+  height: 400px;
+  width: 25rem;
+  box-shadow: 0 0 4px grey;
+}
+
+.signInUpBody {
+  margin-left: 200px;
+  margin-top: 15px;
+  width: 75%;
+}
+
+.signInTypes {
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.siteLayoutMain {
+  height: 100%;
+  width: 1470px;
+  border-radius: 15px;
+}
+
+.siteLayoutMainBody {
+  width: 60rem;
+}
+
+.recentBloodRequest .card {
+  width: 20rem;
+  /* height: 29rem;
+    overflow: auto; */
+}
+
+.recentUsers {
+  width: 20rem;
+  height: 22rem;
+}
+
+.recentUsers a {
+  margin-left: 120px;
+}
+
+.requestBody {
+  height: 24rem;
+  padding: 0px 10px;
+  overflow: auto;
+}
+
+.recentBloodDonor .card {
+  width: 20rem;
+  height: 22rem;
+  overflow: auto;
+  margin-top: 22px;
+}
+
+.dashboard-card-text {
+  width: 180px;
+}
+
+/* Barchart{
+    width: 520px;
+    height: 320px;
+  } */
+
+.profileBar {
+  width: 16rem;
+}
+
+.adminProfileBarInfo {
+  margin-top: 25px;
+  padding-left: 70px;
+}
+
+.form {
+  margin-top: 70px;
+  padding: 0 200px;
+}
+
+.nav_list li {
+  height: 50px;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+.nav_list li a {
+  color: #DE1F26;
+}
+
+.nav_list li i {
+  margin-right: 8px;
+}
+
+.siteLayoutBody {
+  background-color: #E6F0F1;
+  padding: 20px;
+}
+
+.card-text {
+  background-color: #E6F0F1;
+  font-size: 15px;
+  color: black;
+}
+
+.bloodGroup {
+  display: inline;
+  position: relative;
+  left: 4px;
+  height: 25px;
+  color: white;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #DE1F26;
+  margin-top: -4px;
+  font-size: 12px;
+  text-align: center;
+  padding: 2px 10px;
+}
+
+.donorChart {
+  position: relative;
+  right: 35px;
+}
+
+.chatTime {
+  display: inline;
+  position: absolute;
+  right: 15px;
+  color: black;
+  margin-top: -4px;
+  font-size: 10px;
+  text-align: center;
+  padding: 2px 5px;
+}
+
+.emergencyRequest {
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  background-color: #DE1F26;
+}
+
+.sidebar {
+  width: 18rem;
+}
+
+.sidebarLogo {
+  padding: 0px 45px;
+}
+
+.siteLayoutLogo {
+  height: 40px;
+  width: 180px;
+}
+
+.siteLayout {
+  padding: 30px;
+}
+
+.donationStatisticsHeader {
+  display: flex;
+  flex-direction: row;
+}
+
+.profileBarDP {
+  height: 150px;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+
+.adminProfileBarDP {
+  height: 70px;
+  width: 190px;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+.chatTimeDP img {
+  height: 25px;
+}
+
+.recentChats {
+  margin: 25px 0px;
+}
+
+.recentChats .card {
+  width: 15rem;
+  height: 18rem;
+  margin: 25px 10px;
+  overflow: auto;
+}
+
+.personalInfoHeader {
+  display: flex;
+}
+
+.personalInfoHeader .modal-footer button {
+  margin-left: 10px;
+}
+
+.personalInfoHeader button {
+  margin-left: 44rem;
+}
+
+.personalInfo .card .card-body {
+  height: 26rem;
+}
+
+.personalInfoMainBody {
+  display: flex;
+  height: 22rem;
+}
+
+.personalInfoMain {
+  width: 28rem;
+}
+
+.personalInfoContact {
+  padding-left: 50px;
+  width: 22rem;
+}
+
+.personalInfoBio {
+  margin-right: 20px;
+  margin-top: 10px;
+  height: 10rem;
+  overflow: auto;
+}
+
+.personalInfoBody {
+  margin: 10px 30px 10px 0px;
+  display: flex;
+  padding: 10px 0px;
+
+}
+
+.profileOnlineStatus {
+  display: none;
+}
+
+.recentBloodRecived .viewAll {
+  margin-left: 35px;
+  font-size: 12px;
+}
+
+.recentBloodDoantion .viewAll {
+  margin-left: 25px;
+  font-size: 12px;
+}
+
+.friendListHeader .viewAll {
+  margin-left: 120px;
+  font-size: 12px;
+}
+
+.forPhone {
+  display: none;
+}
+
+.forPC {
+  display: inline;
+}
+
+.bloodBankBody {
+  padding-left: 40px;
+}
+
+.bloodBankBody .card {
+  height: 16rem;
+}
+
+.bloodBankBody .card-body .card-title {
+  height: 5rem;
+}
+
+.bloodBankBody a {
+  display: block;
+  position: absolute;
+  bottom: 15px;
+  left: 45px;
+}
+
+.bloodBankBody .row {
+  margin-top: 25px;
+}
+
+.chart {
+  padding: 20px 0px;
+}
+
+.donorSearch {
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+.donorSearch .card-body .card-title span {
+  font-size: 15px;
+  margin-left: 80px;
+}
+
+.donorTable {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.reportChart {
+  margin: 15px 45px;
+  width: 70%;
+}
+
+.footer {
+  color: black;
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  padding: 0px 30px 15px 30px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.footer hr {
+  background-color: black;
+}
+
+.emergencyBloodRequest {
+  width: 40%;
+}
+
+.compulsoryStar {
+  color: #DE1F26;
+}
+
+.bloodRecivedDonatedBody,
+.addedUser {
+  font-size: 18px;
+  display: flex;
+  margin: 15px 0px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.bloodRecivedDonatedBody img {
+  height: 70px;
+  margin-top: 40px;
+}
+
+.addedUser img {
+  height: 70px;
+}
+
+.bloodRecivedDonatedBody p {
+  margin: 7px 0px;
+}
+
+.friendListBody {
+  font-size: 18px;
+  display: flex;
+  margin: 15px 0px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.friendListBody img {
+  height: 70px;
+  margin-top: 20px;
+}
+
+.friendListBody p {
+  margin: 7px 0px;
+}
+
+.userProfileInfo {
+  font-size: 18px;
+}
+
+.bloodRequestorInformation .card .card-body .card-text {
+  font-size: 18px;
+}
+
+.conversationBody {
+  background-color: white;
+}
+
+.conversationSidebar {
+  height: 35rem;
+  width: 16rem;
+}
+
+
+.convo_list {
+  height: 32rem;
+  width: 16rem;
+  overflow: auto;
+  padding: 0px 5px;
+}
+
+.convo_list li {
+  height: 50px;
+  width: 220px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.convo_list li img {
+  height: 30px;
+  margin-right: 15px;
+}
+
+.convo_list li i {
+  margin-right: 8px;
+}
+
+.convo_list button {
+  font-size: 10px;
+}
+
+.conversationChat {
+  width: 40rem;
+  height: 35rem;
+  /* overflow: auto; */
+  box-shadow: 0px 0px 5px grey;
+}
+
+.conversationChat img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.conversationChat nav {
+  box-shadow: 0px 1px 5px grey;
+}
+
+.conversationChatBody {
+  height: 25rem;
+  overflow: auto;
+}
+
+.otherChat img {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
+
+.otherChat .conversationChatBox {
+  background-color: #e8ecf0;
+  display: inline-block;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 0px 15px;
+}
+
+.myChat .conversationChatBox {
+  background-color: #c6e2ff;
+  display: inline-block;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 0px 15px;
+}
+
+.myChat {
+  text-align: right;
+}
+
+.myChat img {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
+
+.conversationText {
+  padding: 10px 0px 10px 20px;
+}
+
+.conversationText input {
+  width: 85%;
+  display: inline-block;
+}
+
+.requestBloodHeader h5 {
+  margin-right: 530px;
+}
+
+.donorRequestTrash {
+  color: #DE1F26;
+}
+
+.requestTable {
+  text-align: center;
+}
+
+.dashboardHeader {
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.notification .card-body {
+  padding: 15px 15px 7px 15px;
+}
+
+.notification .card-body p {
+  margin-bottom: 7px;
+}
+
+.notification i {
+  padding-top: 5px;
+  padding-left: 5px;
+  margin-left: 740px;
+  color: white;
+  background-color: #DE1F26;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+}
+
+.notification .card {
+  position: absolute;
+  z-index: 1;
+  width: 15rem;
+  right: 20rem;
+  display: none;
+}
+
+.notificationTypes {
+  display: flex;
+}
+
+.donorNotification,
+.receiverNotification,
+.friendNotification {
+  font-size: 20px;
+  display: block;
+  margin: auto;
+}
+
+.donorNotification a:focus,
+.receiverNotification a:focus,
+.friendNotification a:focus {
+  color: #DE1F26;
+}
+
+.modal-content {
+  width: 40rem;
+}
+
+.companyStatus {
+  height: 55rem;
+}

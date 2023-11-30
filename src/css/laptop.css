@@ -1,0 +1,24 @@
+@media (max-width: 1439px) and (min-width: 1024px){
+    .nav_list li {
+        height: 30px;
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .nav_list li a{
+        color: #DE1F26;
+    }
+
+    .nav_list li i{
+        margin: 0px 5px 0px 0px;
+    }
+
+    .sidebarLogo{
+        padding: 0px 40px;
+      }
+      
+      .siteLayoutLogo{
+        height: 30px;
+        width: 150px;
+      } 
+}
