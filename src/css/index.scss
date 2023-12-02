@@ -1,3 +1,5 @@
+
+
 a {
   text-decoration: none;
 }
@@ -12,13 +14,7 @@ li {
   background-color: #de1f26;
   font-family: "Times New Roman", Times, serif;
   font-size: 1.2rem;
-  padding-bottom: 15px;
-  .topNavLeft {
-    padding-left: 200px;
-  }
   .rightNavLeft {
-    padding-right: 50px;
-    margin-right: 150px;
     font-size: 20px;
   }
 }
@@ -30,14 +26,12 @@ li {
   top: 0px;
   box-shadow: 5px 0px 6px grey;
   .logoImg {
-    margin-left: 160px;
     img {
       height: 60px;
       width: 300px;
     }
   }
   .bottomNavRight {
-    margin-left: 180px;
     font-family: "Merriweather", serif;
     font-weight: 600;
     font-size: 18px;
@@ -52,7 +46,7 @@ li {
   .slick-next {
     right: 100px;
     z-index: 1;
-    &::before{
+    &::before {
       font-size: 2rem;
     }
   }
@@ -60,20 +54,10 @@ li {
   .slick-prev {
     left: 100px;
     z-index: 1;
-    &::before{
+    &::before {
       font-size: 2rem;
     }
   }
-  // #heroSliderButton1 {
-  //   position: absolute;
-  //   top: 360px;
-  //   left: 100px;
-  // }
-  // #heroSliderButton2 {
-  //   position: absolute;
-  //   top: 360px;
-  //   right: 100px;
-  // }
   .heroText {
     color: white;
     font-family: "montserrat";
@@ -83,8 +67,6 @@ li {
     width: 800px;
     height: 300px;
     position: absolute;
-    // top: 0;
-    // bottom: 0;
     top: 240px;
     left: 0;
     right: 0;
@@ -119,10 +101,10 @@ li {
     text-align: center;
   }
   .aboutBody {
-    padding: 50px 150px;
+    padding: 50px 0px;
+    display: flex;
     .aboutImage {
       img {
-        height: 450px;
         width: 520px;
       }
     }
@@ -137,13 +119,12 @@ li {
   color: grey;
   text-align: center;
   .row {
-    margin: 0;
+    margin: 50px 0;
     padding: 0;
     img {
       border-radius: 5%;
       height: 200px;
       width: 300px;
-      margin: 20px;
     }
   }
 }
@@ -158,32 +139,34 @@ li {
 
   .contact-info {
     display: flex;
+    justify-content: space-between;
     .contact-quick-links {
+      width: 50%;
       display: flex;
-      padding: 80px 80px;
+      padding-top: 80px;
+      justify-content: space-between;
       .contact-informints {
-        margin-right: 100px;
-        .contact-infomints-data {
-          margin-top: 8px;
-          margin-bottom: 8px;
-        }
-        div {
-          margin-left: 15px;
-          display: inline-block;
+        .contact-informints-list {
+          margin-top: 40px;
+          .contact-informints-data {
+            margin-top: 25px;
+            display: flex;
+            i {
+              display: flex;
+              align-items: center;
+            }
+            div {
+              margin-left: 15px;
+            }
+          }
         }
       }
       .quick-links-products {
         .quick-links {
           .quick-links-list {
-            .quick-links-1 {
-              padding-right: 100px;
-            }
-          }
-        }
-        .products {
-          .products-list {
-            .products-list-1 {
-              padding-right: 40px;
+            margin-top: 40px;
+            div {
+              margin-top: 25px;
             }
           }
         }
@@ -573,14 +556,6 @@ li {
   font-size: 12px;
 }
 
-.forPhone {
-  display: none;
-}
-
-.forPC {
-  display: inline;
-}
-
 .bloodBankBody {
   padding-left: 40px;
   .row {
@@ -678,11 +653,6 @@ li {
     margin-top: 25px;
     padding-left: 70px;
   }
-  // .profileBarDP {
-  //   height: 150px;
-  //   margin-top: 15px;
-  //   margin-left: 50px;
-  // }
   .adminProfileBarDP {
     height: 70px;
     width: 190px;

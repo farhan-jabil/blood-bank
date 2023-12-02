@@ -7,45 +7,53 @@ export default function Contact() {
         <div className="contact-info">
           <div className="contact-quick-links">
             <div className="contact-informints">
-              <h4><b>Contact Informints</b></h4>
-              <div className="contact-infomints-data d-flex">
-                <i className="fa-sharp fa-solid fa-location-dot pt-3"></i>
-                <div>
-                  Sonargaon Janapath, Uttara <br /> Dhaka-1230, Bangladesh
+              <h4>
+                <b>Contact Informints</b>
+              </h4>
+              <div className="contact-informints-list">
+                <div className="contact-informints-data">
+                  <i className="fa-sharp fa-solid fa-location-dot"></i>
+                  <div>Dhaka-1230, Bangladesh</div>
                 </div>
-              </div>
-              <div className="contact-infomints-data">
-                <i className="fa-regular fa-envelope"></i>
-                <div>contact@solutya</div>
-              </div>
-              <div className="contact-infomints-data d-flex">
-                <i className="fa-sharp fa-solid fa-phone pt-3"></i>
-                <div>+88 01611-66-4965<br />+88 01911-66-4965</div>
+                <div className="contact-informints-data">
+                  <i className="fa-regular fa-envelope"></i>
+                  <div>bloodbank@gmaill.com</div>
+                </div>
+                <div className="contact-informints-data">
+                  <i className="fa-sharp fa-solid fa-phone"></i>
+                  <div>+88 01641991515</div>
+                </div>
               </div>
             </div>
             <div className="quick-links-products">
               <div className="quick-links">
-                <h4><b>Quick Links</b></h4>
-                <div className="quick-links-list d-flex">
-                  <div className="quick-links-1">
-                    <span>Hero</span>
-                    <br />
-                    <span>Contacts</span>
-                    <br />
-                    <span>Gallery</span>
-                    <br />
+                <h4>
+                  <b>Quick Links</b>
+                </h4>
+                <div className="quick-links-list">
+                  <div>
+                    <a className="text-white" aria-current="page" href="#hero">
+                      Home
+                    </a>
                   </div>
-                  <div className="quick-links-2">
-                    <span>About Us</span>
-                    <br />
-                    <span>Pricing</span>
-                    <br />
-                    <span>Features</span>
-                    <br />
+                  <div>
+                    <a className="text-white" aria-current="page" href="#about">
+                      About Us
+                    </a>
+                  </div>
+                  <div>
+                    <a className="text-white" aria-current="page" href="#gallery">
+                      Gallery
+                    </a>
+                  </div>
+                  <div>
+                    <a className="text-white" aria-current="page" href="#contact">
+                      Contact Us
+                    </a>
                   </div>
                 </div>
               </div>
-              <div className="products mt-3">
+              {/* <div className="products mt-3">
                 <h4><b>More Products</b></h4>
                 <div className="products-list d-flex">
                   <div className="products-list-1">
@@ -61,11 +69,11 @@ export default function Contact() {
                     <br />
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="quick-msg">
-            <div className="card" >
+            <div className="card">
               <h3
                 className="bg-light"
                 style={{ textAlign: "center", padding: "20px 0" }}

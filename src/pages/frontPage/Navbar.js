@@ -6,7 +6,7 @@ export default function Navbar(props) {
     <>
       <div className="topNav">
         <nav className="navbar navbar-expand-lg navbar-light">
-          <div className="container-fluid">
+          <div className="container">
             <ul className="topNavLeft navbar-nav">
               <li className="nav-item">
                 <small>
@@ -24,13 +24,15 @@ export default function Navbar(props) {
                 <span className="ms-2">Service Time : 24 hours</span>
               </li>
             </ul>
-            <ul className="rightNavLeft navbar-nav" >
+            <ul className="rightNavLeft navbar-nav">
               <li className="nav-item">
                 <small>
                   <i className="fa-solid fa-user"></i>
                 </small>
-                <span className="ms-2" >
-                  <Link to="/login" style={{ color: "white" }}>Login</Link>
+                <span className="ms-2">
+                  <Link to="/login" style={{ color: "white" }}>
+                    Login
+                  </Link>
                 </span>
               </li>
             </ul>
@@ -39,14 +41,11 @@ export default function Navbar(props) {
       </div>
       <div className="bottomNav">
         <nav className="navbar navbar-expand-lg navbar-light">
-          <div className="container-fluid">
+          <div className="container">
             <div className="logoImg">
-              <img
-                src="images/logo/logo.jpg"
-                alt=""
-              />
+              <img src="images/logo/logo.jpg" alt="" />
             </div>
-            <button
+            {/* <button
               className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
@@ -56,42 +55,35 @@ export default function Navbar(props) {
               aria-label="Toggle navigation"
             >
               <span className="navbar-toggler-icon"></span>
-            </button>
-
-            <div className="collapse navbar-collapse pt-1" id="navbarSupportedContent">
-              <ul className="bottomNavRight navbar-nav mb-2">
-                <li className="nav-item ms-5">
-                  <a className="nav-link text-black active" aria-current="page" href="#hero">
-                    Home
-                  </a>
-                </li>
-                <li className="nav-item ms-5">
-                  <a className="nav-link text-grey " href="#about">
-                    About Us
-                  </a>
-                </li>
-                <li className="nav-item ms-5">
-                  <a className="nav-link text-grey " href="#gallery">
-                    Gallery
-                  </a>
-                </li>
-                <li className="nav-item ms-5">
-                  <a className="nav-link text-grey " href="#process">
-                    Process
-                  </a>
-                </li>
-                <li className="nav-item ms-5">
-                  <a className="nav-link text-grey " href="#blog">
-                    Blog
-                  </a>
-                </li>
-                <li className="nav-item ms-5">
-                  <a className="nav-link text-grey" href="#contact">
-                    Contact Us
-                  </a>
-                </li>
-              </ul>
-            </div>
+            </button> */}
+            {/* <div className="collapse navbar-collapse pt-1" id="navbarSupportedContent"> */}
+            <ul className="bottomNavRight navbar-nav mb-2">
+              <li className="nav-item ms-5">
+                <a
+                  className="nav-link text-black active"
+                  aria-current="page"
+                  href="#hero"
+                >
+                  Home
+                </a>
+              </li>
+              <li className="nav-item ms-5">
+                <a className="nav-link text-grey " href="#about">
+                  About Us
+                </a>
+              </li>
+              <li className="nav-item ms-5">
+                <a className="nav-link text-grey " href="#gallery">
+                  Gallery
+                </a>
+              </li>
+              <li className="nav-item ms-5">
+                <a className="nav-link text-grey" href="#contact">
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+            {/* </div> */}
           </div>
         </nav>
       </div>

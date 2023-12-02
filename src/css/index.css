@@ -12,14 +12,8 @@ li {
   background-color: #de1f26;
   font-family: "Times New Roman", Times, serif;
   font-size: 1.2rem;
-  padding-bottom: 15px;
-}
-.topNav .topNavLeft {
-  padding-left: 200px;
 }
 .topNav .rightNavLeft {
-  padding-right: 50px;
-  margin-right: 150px;
   font-size: 20px;
 }
 
@@ -30,15 +24,11 @@ li {
   top: 0px;
   box-shadow: 5px 0px 6px grey;
 }
-.bottomNav .logoImg {
-  margin-left: 160px;
-}
 .bottomNav .logoImg img {
   height: 60px;
   width: 300px;
 }
 .bottomNav .bottomNavRight {
-  margin-left: 180px;
   font-family: "Merriweather", serif;
   font-weight: 600;
   font-size: 18px;
@@ -105,10 +95,10 @@ li {
   text-align: center;
 }
 .about .aboutBody {
-  padding: 50px 150px;
+  padding: 50px 0px;
+  display: flex;
 }
 .about .aboutBody .aboutImage img {
-  height: 450px;
   width: 520px;
 }
 
@@ -121,14 +111,13 @@ li {
   text-align: center;
 }
 .gallery .row {
-  margin: 0;
+  margin: 50px 0;
   padding: 0;
 }
 .gallery .row img {
   border-radius: 5%;
   height: 200px;
   width: 300px;
-  margin: 20px;
 }
 
 .contact {
@@ -141,27 +130,33 @@ li {
 }
 .contact .contact-info {
   display: flex;
+  justify-content: space-between;
 }
 .contact .contact-info .contact-quick-links {
+  width: 50%;
   display: flex;
-  padding: 80px 80px;
+  padding-top: 80px;
+  justify-content: space-between;
 }
-.contact .contact-info .contact-quick-links .contact-informints {
-  margin-right: 100px;
+.contact .contact-info .contact-quick-links .contact-informints .contact-informints-list {
+  margin-top: 40px;
 }
-.contact .contact-info .contact-quick-links .contact-informints .contact-infomints-data {
-  margin-top: 8px;
-  margin-bottom: 8px;
+.contact .contact-info .contact-quick-links .contact-informints .contact-informints-list .contact-informints-data {
+  margin-top: 25px;
+  display: flex;
 }
-.contact .contact-info .contact-quick-links .contact-informints div {
+.contact .contact-info .contact-quick-links .contact-informints .contact-informints-list .contact-informints-data i {
+  display: flex;
+  align-items: center;
+}
+.contact .contact-info .contact-quick-links .contact-informints .contact-informints-list .contact-informints-data div {
   margin-left: 15px;
-  display: inline-block;
 }
-.contact .contact-info .contact-quick-links .quick-links-products .quick-links .quick-links-list .quick-links-1 {
-  padding-right: 100px;
+.contact .contact-info .contact-quick-links .quick-links-products .quick-links .quick-links-list {
+  margin-top: 40px;
 }
-.contact .contact-info .contact-quick-links .quick-links-products .products .products-list .products-list-1 {
-  padding-right: 40px;
+.contact .contact-info .contact-quick-links .quick-links-products .quick-links .quick-links-list div {
+  margin-top: 25px;
 }
 .contact .contact-info .quick-msg {
   position: relative;
@@ -507,14 +502,6 @@ li {
 .friendListHeader .viewAll {
   margin-left: 120px;
   font-size: 12px;
-}
-
-.forPhone {
-  display: none;
-}
-
-.forPC {
-  display: inline;
 }
 
 .bloodBankBody {
