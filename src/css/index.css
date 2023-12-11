@@ -38,6 +38,11 @@ li {
   background-color: white;
 }
 
+.hero {
+  position: relative;
+  background-color: red;
+  padding: 150px 0;
+}
 .hero .slick-next {
   right: 100px;
   z-index: 1;
@@ -74,7 +79,14 @@ li {
   width: 200px;
   background-color: #de1f26;
 }
-.hero img {
+.hero .heroImage {
+  position: absolute;
+  width: 100vw;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+}
+.hero .heroImage img {
   height: 100%;
   width: 100%;
 }

@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 import { images } from "../../utils/demo_images";
 
 export default function Hero() {
-
   const settings = {
     infinite: true,
     speed: 500,
@@ -44,7 +43,9 @@ export default function Hero() {
                 </Link>
               </div>
             </div>
-            <img src={images.hero1} alt="" />
+            <div className="heroImage">
+              <img src={images.hero1} alt="" />
+            </div>
           </div>
           <div className="">
             <div className="heroText">
@@ -71,7 +72,9 @@ export default function Hero() {
                 </Link>
               </div>
             </div>
-            <img src={images.hero2} alt="" />
+            <div className="heroImage">
+              <img src={images.hero2} alt="" />
+            </div>
           </div>
         </Slider>
       </div>

@@ -43,6 +43,11 @@ li {
 }
 
 .hero {
+  position: relative;
+  background-color: red;
+  padding: 150px 0;
+  // height: 100vh;
+  // width: auto;
   .slick-next {
     right: 100px;
     z-index: 1;
@@ -58,6 +63,7 @@ li {
       font-size: 2rem;
     }
   }
+
   .heroText {
     color: white;
     font-family: "montserrat";
@@ -80,10 +86,21 @@ li {
       }
     }
   }
-  img {
-    height: 100%;
-    width: 100%;
-  }
+  .heroImage{
+    // display: none;
+    position: absolute;
+    // bottom: 0;
+    // height: 100vh;
+    width: 100vw;
+    // height: 100%;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }  
 }
 
 .about {
