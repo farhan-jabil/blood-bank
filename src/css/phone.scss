@@ -167,24 +167,24 @@
       .conversationBody {
         .conversationSidebar {
           height: 30rem;
-          .convo_list{
+          .convo_list {
             height: 27rem;
             width: 30rem;
             li {
-                height: 50px;
-                width: 16rem;
-                padding: 10px;
-                border-radius: 5px;
-              }
+              height: 50px;
+              width: 16rem;
+              padding: 10px;
+              border-radius: 5px;
+            }
           }
         }
       }
-      .requestBloodHeader{
+      .requestBloodHeader {
         flex-direction: column;
         font-size: 12px;
-        h5{
-            margin-right: 0px;
-          }
+        h5 {
+          margin-right: 0px;
+        }
       }
     }
   }
@@ -259,15 +259,18 @@
     }
   }
 
-  .aboutBody {
-    padding: 0px 0px;
-    .aboutText {
-      padding: 50px 20px;
-    }
-    .aboutImage {
-      img {
-        height: 100%;
-        width: 100%;
+  .about {
+    .aboutBody {
+      padding: 0px 0px;
+      flex-direction: column;
+      .aboutText {
+        padding: 50px 20px;
+      }
+      .aboutImage {
+        img {
+          height: 100%;
+          width: 100%;
+        }
       }
     }
   }
@@ -338,8 +341,6 @@
       text-align: center;
       padding: 0 50px;
       font-size: 12px;
-      position: absolute;
-      top: 170px;
       h1 {
         font-size: 20px;
       }
@@ -358,7 +359,7 @@
     width: 80%;
   }
 
-  .convoButton{
+  .convoButton {
     width: 3rem;
     height: 1rem;
     margin-left: 24px;

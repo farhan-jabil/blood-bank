@@ -1,4 +1,5 @@
 import React from "react";
+import { images } from "../../utils/demo_images";
 
 export default function About() {
   return (
@@ -47,7 +48,7 @@ export default function About() {
           </span>
         </div>
         <div className="aboutImage">
-          <img src="./images/about/about.jpg" alt="" />
+          <img src={images.about} alt="" />
         </div>
       </div>
     </div>

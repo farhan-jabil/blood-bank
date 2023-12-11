@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { images } from "../../utils/demo_images";
 
 export default function Navbar(props) {
   return (
@@ -43,7 +44,7 @@ export default function Navbar(props) {
         <nav className="navbar navbar-expand-lg navbar-light">
           <div className="container">
             <div className="logoImg">
-              <img src="images/logo/logo.jpg" alt="" />
+              <img src={images.logo} alt="" />
             </div>
             {/* <button
               className="navbar-toggler"

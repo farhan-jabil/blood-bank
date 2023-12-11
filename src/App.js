@@ -1,9 +1,6 @@
 import "./App.css";
 import './css/index.css';
-// import './css/tab.css';
-// import './css/phone.css';
-// import './css/laptop.css';
-// import './css/monitor.css';
+import './css/phone.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./pages/frontPage/Navbar";
 import Hero from "./pages/frontPage/Hero";

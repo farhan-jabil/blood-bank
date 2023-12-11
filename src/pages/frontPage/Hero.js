@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
+import { images } from "../../utils/demo_images";
 
 export default function Hero() {
 
@@ -18,7 +19,7 @@ export default function Hero() {
     <>
       <div className="hero" id="hero">
         <Slider {...settings}>
-          <div className="position-relative">
+          <div className="">
             <div className="heroText">
               <h1>
                 <b className="">Donate Blood & Save a Life</b>
@@ -43,9 +44,9 @@ export default function Hero() {
                 </Link>
               </div>
             </div>
-            <img src="./images/home/slide-02.jpg" alt="" />
+            <img src={images.hero1} alt="" />
           </div>
-          <div className="position-relative">
+          <div className="">
             <div className="heroText">
               <h1>
                 <b className="">Donate Blood & Save a Life</b>
@@ -70,7 +71,7 @@ export default function Hero() {
                 </Link>
               </div>
             </div>
-            <img src="./images/home/slide-03.jpg" alt="" />
+            <img src={images.hero2} alt="" />
           </div>
         </Slider>
       </div>

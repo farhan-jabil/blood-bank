@@ -60,10 +60,6 @@ li {
   font-size: 1.5rem;
   width: 800px;
   height: 300px;
-  position: absolute;
-  top: 240px;
-  left: 0;
-  right: 0;
   margin: auto;
 }
 .hero .heroText .heroTextButton {
@@ -97,6 +93,7 @@ li {
 .about .aboutBody {
   padding: 50px 0px;
   display: flex;
+  flex-direction: row;
 }
 .about .aboutBody .aboutImage img {
   width: 520px;
