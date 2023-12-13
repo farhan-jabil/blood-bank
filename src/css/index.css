@@ -38,11 +38,6 @@ li {
   background-color: white;
 }
 
-.hero {
-  position: relative;
-  background-color: red;
-  padding: 150px 0;
-}
 .hero .slick-next {
   right: 100px;
   z-index: 1;
@@ -57,38 +52,49 @@ li {
 .hero .slick-prev::before {
   font-size: 2rem;
 }
-.hero .heroText {
+.hero .slick-dots {
+  bottom: 0;
+}
+.hero .slick-dots li {
+  margin: 0px 10px;
+}
+.hero .customPagingButtons {
+  width: 30px;
+  height: 3px;
+}
+.hero .heroBody {
+  position: relative;
+}
+.hero .heroBody .heroImages {
+  width: 100%;
+}
+.hero .heroBody .heroImages img {
+  width: 100%;
+}
+.hero .heroBody .heroText {
+  position: absolute;
+  z-index: 100;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: white;
   font-family: "montserrat";
   font-weight: 450;
   text-align: center;
   font-size: 1.5rem;
   width: 800px;
-  height: 300px;
   margin: auto;
 }
-.hero .heroText .heroTextButton {
+.hero .heroBody .heroText .heroTextButton {
   margin-top: 40px;
   padding-right: 20px;
 }
-.hero .heroText .heroTextButton button {
+.hero .heroBody .heroText .heroTextButton button {
   font-size: 20px;
   font-weight: bold;
   padding: 10px 15px;
   margin: 0px 10px;
   width: 200px;
-  background-color: #de1f26;
-}
-.hero .heroImage {
-  position: absolute;
-  width: 100vw;
-  z-index: -1;
-  top: 0;
-  bottom: 0;
-}
-.hero .heroImage img {
-  height: 100%;
-  width: 100%;
 }
 
 .about {

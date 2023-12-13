@@ -1,5 +1,3 @@
-
-
 a {
   text-decoration: none;
 }
@@ -43,11 +41,6 @@ li {
 }
 
 .hero {
-  position: relative;
-  background-color: red;
-  padding: 150px 0;
-  // height: 100vh;
-  // width: auto;
   .slick-next {
     right: 100px;
     z-index: 1;
@@ -64,43 +57,54 @@ li {
     }
   }
 
-  .heroText {
-    color: white;
-    font-family: "montserrat";
-    font-weight: 450;
-    text-align: center;
-    font-size: 1.5rem;
-    width: 800px;
-    height: 300px;
-    margin: auto;
-    .heroTextButton {
-      margin-top: 40px;
-      padding-right: 20px;
-      button {
-        font-size: 20px;
-        font-weight: bold;
-        padding: 10px 15px;
-        margin: 0px 10px;
-        width: 200px;
-        background-color: #de1f26;
+  .slick-dots {
+    bottom: 0;
+    li {
+      margin: 0px 10px; 
+    }
+  }
+
+  .customPagingButtons {
+    width: 30px;
+    height: 3px;
+  }
+
+  .heroBody {
+    position: relative;
+
+    .heroImages {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+
+    .heroText {
+      position: absolute;
+      z-index: 100;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-family: "montserrat";
+      font-weight: 450;
+      text-align: center;
+      font-size: 1.5rem;
+      width: 800px;
+      margin: auto;
+      .heroTextButton {
+        margin-top: 40px;
+        padding-right: 20px;
+        button {
+          font-size: 20px;
+          font-weight: bold;
+          padding: 10px 15px;
+          margin: 0px 10px;
+          width: 200px;
+        }
       }
     }
   }
-  .heroImage{
-    // display: none;
-    position: absolute;
-    // bottom: 0;
-    // height: 100vh;
-    width: 100vw;
-    // height: 100%;
-    z-index: -1;
-    top: 0;
-    bottom: 0;
-    img {
-      height: 100%;
-      width: 100%;
-    }
-  }  
 }
 
 .about {
@@ -708,4 +712,3 @@ li {
 .compulsoryStar {
   color: #de1f26;
 }
-

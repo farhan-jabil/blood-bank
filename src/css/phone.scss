@@ -331,25 +331,95 @@
     }
   }
 
+  // .hero {
+  //   width: 100%;
+  //   height: 300px;
+  //   .heroText {
+  //     color: white;
+  //     font-family: "montserrat";
+  //     font-weight: 450;
+  //     text-align: center;
+  //     padding: 0 50px;
+  //     font-size: 12px;
+  //     h1 {
+  //       font-size: 20px;
+  //     }
+  //     .heroTextButton {
+  //       margin-top: 25px;
+  //       padding-right: 0px;
+  //       button {
+  //         font-size: 10px;
+  //         width: 120px;
+  //       }
+  //     }
+  //   }
+  // }
+
   .hero {
-    width: 100%;
-    height: 300px;
-    .heroText {
-      color: white;
-      font-family: "montserrat";
-      font-weight: 450;
-      text-align: center;
-      padding: 0 50px;
-      font-size: 12px;
-      h1 {
-        font-size: 20px;
+    .slick-next {
+      right: 50px;
+      z-index: 1;
+      &::before {
+        font-size: 1rem;
       }
-      .heroTextButton {
-        margin-top: 25px;
-        padding-right: 0px;
-        button {
-          font-size: 10px;
-          width: 120px;
+    }
+  
+    .slick-prev {
+      left: 50px;
+      z-index: 1;
+      &::before {
+        font-size: 1rem;
+      }
+    }
+  
+    .slick-dots {
+      bottom: 0;
+      li {
+        margin: 0px 3px; 
+      }
+    }
+  
+    .customPagingButtons {
+      width: 15px;
+      height: 3px;
+    }
+  
+    .heroBody {
+      position: relative;
+  
+      .heroImages {
+        width: 100%;
+        img {
+          width: 100%;
+        }
+      }
+  
+      .heroText {
+        position: absolute;
+        z-index: 100;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-family: "montserrat";
+        font-weight: 450;
+        text-align: center;
+        font-size: 10px;
+        width: 300px;
+        margin: auto;
+        h1 {
+          font-size: 15px;
+        }
+        .heroTextButton {
+          margin-top: 10px;
+          padding-right: 20px;
+          button {
+            font-size: 10px;
+            font-weight: bold;
+            padding: 5px 8px;
+            margin: 0px 10px;
+            width: 100px;
+          }
         }
       }
     }
