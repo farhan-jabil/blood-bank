@@ -2,13 +2,13 @@ import "./App.css";
 import './css/index.css';
 import './css/phone.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./pages/frontPage/Navbar";
+import Navbarr from "./pages/frontPage/Navbar";
 import Hero from "./pages/frontPage/Hero";
 import About from "./pages/frontPage/About";
 import Gallery from "./pages/frontPage/Gallery";
 import Process from "./pages/frontPage/Process";
 import Blog from "./pages/frontPage/Blog";
-import Contact from "./pages/frontPage/Contact";
+import Footer from "./pages/frontPage/Footer";
 import Login from "./pages/signInUp/Login";
 import SignUp from "./pages/signInUp/SignUp";
 import Dashboard from "./pages/user/dashboard/Dashboard";
@@ -22,7 +22,6 @@ import BloodRequest from "./pages/user/dashboard/BloodRequest";
 import BloodDonor from "./pages/user/dashboard/BloodDonor";
 import UsersProfile from "./pages/user/profile/UsersProfile";
 import EmergencyRequest from "./pages/frontPage/EmergencyRequest";
-import Footer from "./components/Footer";
 import RequestBlood from "./pages/user/request/RequestBlood";
 import Conversation from "./pages/user/conversation/Conversation";
 import ViewBloodRecived from "./pages/user/profile/ViewBloodRecived";
@@ -287,18 +286,17 @@ function App() {
             path="/"
             element={
               <>
-                {/* <Navbar /> */}
+                {/* <Navbarr /> */}
                 <Hero />
                 <About />
                 <Gallery />
                 <Process/>
                 <Blog/>
-                <Contact />
+                <Footer />
               </>
             }
           />
         </Routes>
-        <Footer/>
       </Router>
     </>
   );

@@ -5,8 +5,8 @@ export default function Gallery() {
   return (
     <>
       <div className="gallery bg-light" id="gallery">
-        <div className="galleryHeader">
-          <h1>Gallery</h1>
+        <div className="header">
+          <h1>Checkout Our Gallery</h1>
         </div>
         <div className="galleryImages container">
           <div className="row">

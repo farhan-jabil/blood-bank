@@ -6,11 +6,17 @@ li {
   list-style: none;
 }
 
+.header {
+  color: grey;
+  font-size: 20px;
+  text-align: center;
+}
+
 .topNav {
   height: 45px;
   color: white;
   background-color: #de1f26;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Merriweather", serif;
   font-size: 1.2rem;
   .rightNavLeft {
     font-size: 20px;
@@ -32,7 +38,7 @@ li {
   .bottomNavRight {
     font-family: "Merriweather", serif;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 18px !important;
   }
 }
 
@@ -60,7 +66,7 @@ li {
   .slick-dots {
     bottom: 0;
     li {
-      margin: 0px 10px; 
+      margin: 0px 10px;
     }
   }
 
@@ -108,33 +114,28 @@ li {
 }
 
 .about {
-  padding-top: 100px;
+  padding: 100px 0;
   font-family: "Merriweather", serif;
   font-weight: 400;
   font-size: 18px;
-  .aboutHeader {
-    color: grey;
-    font-size: 20px;
-    text-align: center;
-  }
   .aboutBody {
-    padding: 50px 0px;
     display: flex;
     flex-direction: row;
+    .aboutText {
+      flex: 1;
+      text-align: justify;
+      font-size: 18px;
+      line-height: 1.5;
+    }
     .aboutImage {
-      img {
-        width: 520px;
-      }
+      flex: 1;
     }
   }
 }
 
 .gallery {
-  padding-top: 100px;
+  padding: 100px 0;
   font-family: "Merriweather", serif;
-  font-weight: 400;
-  font-size: 20px;
-  color: grey;
   text-align: center;
   .row {
     margin: 50px 0;
@@ -147,28 +148,23 @@ li {
   }
 }
 
-.contact {
+.footer {
   background-color: #de1f26;
   color: white;
-  margin-top: 100px;
   font-family: "Merriweather", serif;
   font-size: 18px;
-  padding: 0px 100px;
+  position: relative;
 
-  .contact-info {
-    display: flex;
-    justify-content: space-between;
-    .contact-quick-links {
-      width: 50%;
+  .footer-info {
+    padding: 80px;
+    .footer-quick-links {
       display: flex;
-      padding-top: 80px;
       justify-content: space-between;
-      .contact-informints {
-        .contact-informints-list {
-          margin-top: 40px;
-          .contact-informints-data {
-            margin-top: 25px;
+      .footer-informints {
+        .footer-informints-list {
+          .footer-informints-data {
             display: flex;
+            margin-top: 15px;
             i {
               display: flex;
               align-items: center;
@@ -179,23 +175,20 @@ li {
           }
         }
       }
-      .quick-links-products {
-        .quick-links {
-          .quick-links-list {
-            margin-top: 40px;
-            div {
-              margin-top: 25px;
-            }
-          }
-        }
-      }
     }
+    // .quick-links-products {
+    //   .quick-links {
+    //     .quick-links-list {
+
+    //     }
+    //   }
+    // }
     .quick-msg {
-      position: relative;
-      bottom: 90px;
+      position: absolute;
+      right: 0;
+      bottom: 120px;
       .card {
         color: black;
-        height: 400px;
         width: 25rem;
         box-shadow: 0 0 4px grey;
       }
@@ -693,17 +686,17 @@ li {
   padding: 0 200px;
 }
 
-.footer {
-  color: black;
-  font-family: "Merriweather", serif;
-  font-size: 18px;
-  padding: 0px 30px 15px 30px;
-  margin-top: 40px;
-  text-align: center;
-  hr {
-    background-color: black;
-  }
-}
+// .footer {
+//   color: black;
+//   font-family: "Merriweather", serif;
+//   font-size: 18px;
+//   padding: 0px 30px 15px 30px;
+//   margin-top: 40px;
+//   text-align: center;
+//   hr {
+//     background-color: black;
+//   }
+// }
 
 .emergencyBloodRequest {
   width: 40%;
