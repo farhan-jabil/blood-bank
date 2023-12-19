@@ -4,7 +4,7 @@ import { images } from "../../utils/demo_images";
 export default function Gallery() {
   return (
     <>
-      <div className="gallery bg-light" id="gallery">
+      <div className="gallery" id="gallery">
         <div className="header">
           <h1>Checkout Our Gallery</h1>
         </div>

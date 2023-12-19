@@ -286,7 +286,7 @@ function App() {
             path="/"
             element={
               <>
-                {/* <Navbarr /> */}
+                <Navbarr />
                 <Hero />
                 <About />
                 <Gallery />

@@ -10,6 +10,7 @@ li {
   color: grey;
   font-size: 20px;
   text-align: center;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .topNav {
@@ -127,6 +128,7 @@ li {
   padding: 100px 0;
   font-family: "Merriweather", serif;
   text-align: center;
+  background-color: rgba(204, 204, 204, 0.1803921569);
 }
 .gallery .row {
   margin: 50px 0;
@@ -136,6 +138,38 @@ li {
   border-radius: 5%;
   height: 200px;
   width: 300px;
+}
+
+.process {
+  padding: 100px 0;
+}
+.process .card-body {
+  background-color: #f8f9fa;
+}
+
+.blog {
+  padding: 100px 0;
+  color: #6a6a6a;
+  background-color: rgba(204, 204, 204, 0.1803921569);
+}
+.blog .blog-cards {
+  display: flex;
+  box-shadow: 0 2px 3px 0 rgba(218, 218, 253, 0.35), 0 0px 3px 0 rgba(206, 206, 238, 0.35);
+  margin: 20px 0;
+}
+.blog .blog-cards .blog-cards-image {
+  height: 100%;
+  width: 100%;
+}
+.blog .blog-cards .blog-cards-text {
+  padding: 10px;
+  background-color: white;
+}
+.blog .blog-cards .blog-cards-text .intented {
+  text-indent: 20px;
+}
+.blog .blog-cards .blog-cards-text p {
+  margin-bottom: 0;
 }
 
 .footer {
@@ -166,12 +200,17 @@ li {
 .footer .footer-info .quick-msg {
   position: absolute;
   right: 0;
-  bottom: 120px;
+  top: -80px;
 }
 .footer .footer-info .quick-msg .card {
   color: black;
   width: 25rem;
   box-shadow: 0 0 4px grey;
+}
+.footer .footer-copyright {
+  border-top: 1px solid white;
+  padding: 20px;
+  font-size: 20px;
 }
 
 .signInUpBody {

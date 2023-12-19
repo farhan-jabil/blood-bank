@@ -15,7 +15,7 @@ export default function Footer() {
                   <div className="footer-informints-data">
                     <i className="fa-sharp fa-solid fa-location-dot"></i>
                     <div>
-                      46-29 Indra Street, Southernbank, Tigaione, Toranto, 3006
+                      46-29 Indra Street, Southenbank, Tigaione, Toranto, 3006
                       Canada
                     </div>
                   </div>
@@ -35,7 +35,7 @@ export default function Footer() {
               </div>
             </div>
             <div className="col-lg-1"></div>
-            <div className="quick-links-products col-lg-3">
+            <div className="quick-links-products col-lg-4">
               <div className="quick-links">
                 <h4>
                   <b>Quick Links</b>
@@ -89,7 +89,6 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-1"></div>
             <div className="quick-msg col-lg-4">
               <div className="card">
                 <h3
@@ -146,6 +145,12 @@ export default function Footer() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+        <div className="container footer-copyright text-center">
+          <div>
+            Copyright © <span style={{ color: "lightgray" }}>Smarteyeapps.com</span>{" "}
+            | All right reserved.
           </div>
         </div>
       </div>
