@@ -241,41 +241,44 @@
   .reportChart {
     margin: 10px 30px;
   }
+  .gallery .header {
+    margin-bottom: 50px;
+  }
+  .gallery .row {
+    margin: 0;
+  }
+  .gallery .row .gallery-cards {
+    margin-bottom: 50px;
+  }
+  .blog .blog-cards {
+    flex-direction: column;
+    text-align: center;
+  }
+  .blog .blog-cards .blog-header {
+    font-weight: 600;
+  }
   .footer {
-    font-size: 15px;
-    padding: 0px 10px;
-  }
-  .footer hr {
-    background-color: black;
-    margin-bottom: 20px;
-  }
-  .contact {
     margin-top: 0px;
     font-size: 12px;
-    padding: 0px 0px;
+    padding: 40px;
   }
-  .contact .contact-info {
-    display: flex;
-    flex-direction: column;
+  .footer .footer-info {
+    padding: 0;
   }
-  .contact .contact-info .contact-quick-links {
-    display: flex;
-    flex-direction: column;
-    padding: 50px 80px;
+  .footer .footer-info .quick-links-products {
+    margin-top: 50px;
   }
-  .contact .contact-info .contact-quick-links .contact-informints {
-    margin-right: 100px;
+  .footer .footer-info .quick-msg {
+    position: static;
+    margin-top: 50px;
   }
-  .contact .contact-info .quick-msg {
-    position: relative;
-    bottom: 20px;
-  }
-  .contact .contact-info .quick-msg .card {
+  .footer .footer-info .quick-msg .card {
     color: black;
-    height: 400px;
     width: 20rem;
-    margin-left: 40px;
     box-shadow: 0 0 4px grey;
+  }
+  .footer .footer-copyright {
+    margin-top: 50px;
   }
   .hero .slick-next {
     right: 50px;

@@ -152,15 +152,23 @@ li {
 
 .process {
   padding: 100px 0;
-  .card-body {
-    background-color: #f8f9fa;
+  .process-cards {
+    margin: auto;
+    margin-bottom: 50px;
+    .card-body {
+      background-color: #f8f9fa;
+    }
   }
 }
+
 
 .blog {
   padding: 100px 0;
   color: #6a6a6a;
   background-color: #cccccc2e;
+  br {
+    display: none;
+  }
   .blog-cards {
     display: flex;
     box-shadow: 0 2px 3px 0 rgba(218, 218, 253, 0.35),

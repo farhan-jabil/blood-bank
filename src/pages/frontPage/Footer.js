@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="footer" id="footer">
         <div className="container footer-info">
           <div className="row">
-            <div className="footer-quick-links col-lg-3">
+            <div className="footer-quick-links col-sm-12 col-lg-3">
               <div className="footer-informints">
                 <h4>
                   <b>Contact Informints</b>
@@ -35,13 +35,13 @@ export default function Footer() {
               </div>
             </div>
             <div className="col-lg-1"></div>
-            <div className="quick-links-products col-lg-4">
+            <div className="quick-links-products col-sm-12 col-lg-4">
               <div className="quick-links">
                 <h4>
                   <b>Quick Links</b>
                 </h4>
                 <div className="quick-links-list row">
-                  <ul className="col-lg-6">
+                  <ul className="col-6">
                     <li>
                       <div>Home</div>
                     </li>
@@ -52,7 +52,7 @@ export default function Footer() {
                       <div>Gallery</div>
                     </li>
                   </ul>
-                  <ul className="col-lg-6">
+                  <ul className="col-6">
                     <li>
                       <div>About Us</div>
                     </li>
@@ -70,7 +70,7 @@ export default function Footer() {
                   <b>More Products</b>
                 </h4>
                 <div className="products-list row">
-                  <ul className="col-lg-6">
+                  <ul className="col-6">
                     <li>
                       <div>Forum PHP Script</div>
                     </li>
@@ -78,7 +78,7 @@ export default function Footer() {
                       <div>Smart Event</div>
                     </li>
                   </ul>
-                  <ul className="col-lg-6">
+                  <ul className="col-6">
                     <li>
                       <div>Edu Smart</div>
                     </li>
@@ -89,7 +89,7 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <div className="quick-msg col-lg-4">
+            <div className="quick-msg col-sm-12 col-lg-4">
               <div className="card">
                 <h3
                   className="bg-light"

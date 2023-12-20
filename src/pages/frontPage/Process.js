@@ -14,8 +14,8 @@ export default function Process() {
             </span>
           </div>
           <div className="row mt-5">
-            <div className="col-lg-3">
-              <div className="card" style={{width: "18rem"}}>
+            <div className="col-sm-12 col-lg-3">
+              <div className="card process-cards" style={{width: "18rem"}}>
                 <img src={images.galleryImages1} className="card-img-top" />
                 <div className="card-body text-secondary">
                   <p className="card-title fw-bold">1 - Registration</p>
@@ -28,8 +28,8 @@ export default function Process() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3">
-              <div className="card" style={{width: "18rem"}}>
+            <div className="col-sm-12 col-lg-3">
+              <div className="card process-cards" style={{width: "18rem"}}>
                 <img src={images.galleryImages2} className="card-img-top" />
                 <div className="card-body text-secondary">
                   <p className="card-title fw-bold">2 - Seeing</p>
@@ -42,8 +42,8 @@ export default function Process() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3">
-              <div className="card" style={{width: "18rem"}}>
+            <div className="col-sm-12 col-lg-3">
+              <div className="card process-cards" style={{width: "18rem"}}>
                 <img src={images.galleryImages3} className="card-img-top" />
                 <div className="card-body text-secondary">
                   <p className="card-title fw-bold">3 - Donation</p>
@@ -56,8 +56,8 @@ export default function Process() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3">
-              <div className="card" style={{width: "18rem"}}>
+            <div className="col-sm-12 col-lg-3">
+              <div className="card process-cards" style={{width: "18rem"}}>
                 <img src={images.galleryImages4} className="card-img-top" />
                 <div className="card-body text-secondary">
                   <p className="card-title fw-bold">4 - Save Life</p>

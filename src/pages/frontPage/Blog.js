@@ -21,7 +21,7 @@ export default function Blog() {
                   <img src={images.galleryImages1} className="card-img-top" />
                 </div>
                 <div className="blog-cards-text">
-                  <p className="">Latest News about Smarteye</p>
+                  <p className="fw-bold">Latest News about Smarteye</p>
                   <p className="intented">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Fusce fringilla vel nisl a dictum. Donec ut est arcu. Donec
@@ -39,7 +39,7 @@ export default function Blog() {
                   <img src={images.galleryImages2} className="card-img-top" />
                 </div>
                 <div className="blog-cards-text">
-                  <p className="">Latest News about Smarteye</p>
+                  <p className="fw-bold">Latest News about Smarteye</p>
                   <p className="intented">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Fusce fringilla vel nisl a dictum. Donec ut est arcu. Donec
@@ -57,7 +57,7 @@ export default function Blog() {
                   <img src={images.galleryImages3} className="card-img-top" />
                 </div>
                 <div className="blog-cards-text">
-                  <p className="">Latest News about Smarteye</p>
+                  <p className="fw-bold">Latest News about Smarteye</p>
                   <p className="intented">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Fusce fringilla vel nisl a dictum. Donec ut est arcu. Donec
@@ -75,7 +75,7 @@ export default function Blog() {
                   <img src={images.galleryImages4} className="card-img-top" />
                 </div>
                 <div className="blog-cards-text">
-                  <p className="">Latest News about Smarteye</p>
+                  <p className="fw-bold">Latest News about Smarteye</p>
                   <p className="intented">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Fusce fringilla vel nisl a dictum. Donec ut est arcu. Donec

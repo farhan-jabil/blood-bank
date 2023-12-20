@@ -293,41 +293,54 @@
     margin: 10px 30px;
   }
 
-  .footer {
-    font-size: 15px;
-    padding: 0px 10px;
-    hr {
-      background-color: black;
-      margin-bottom: 20px;
+  .gallery {
+    .header {
+      margin-bottom: 50px;
+    }
+    .row {
+      margin: 0;
+      .gallery-cards{
+        margin-bottom: 50px;
+      }
     }
   }
 
-  .contact {
+  .blog {
+    .blog-cards {
+      flex-direction: column;
+      text-align: center;
+      .blog-header {
+        font-weight: 600;
+      }
+    }
+  }
+
+  .footer {
     margin-top: 0px;
     font-size: 12px;
-    padding: 0px 0px;
-    .contact-info {
-      display: flex;
-      flex-direction: column;
-      .contact-quick-links {
-        display: flex;
-        flex-direction: column;
-        padding: 50px 80px;
-        .contact-informints {
-          margin-right: 100px;
+    padding: 40px;
+    .footer-info {
+      padding: 0;
+      
+      .footer-quick-links {
+        .footer-informints {
         }
       }
+      .quick-links-products {
+        margin-top: 50px;
+      }
       .quick-msg {
-        position: relative;
-        bottom: 20px;
+        position: static;
+        margin-top: 50px;
         .card {
           color: black;
-          height: 400px;
           width: 20rem;
-          margin-left: 40px;
           box-shadow: 0 0 4px grey;
         }
       }
+    }
+    .footer-copyright {
+      margin-top: 50px;
     }
   }
 
