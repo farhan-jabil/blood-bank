@@ -136,16 +136,12 @@ export default function Hero() {
                 ipsam laboriosam odit a amet in voluptas sit.
               </span>
               <div className="heroTextButton ">
-                <Link to="/emergencyRequest">
                   <button type="button" className="btn btn-danger">
                     Request for Blood
                   </button>
-                </Link>
-                <Link to="/login">
                   <button type="button" className="btn btn-danger">
                     Donate Now
                   </button>
-                </Link>
               </div>
             </div>
           </div>
