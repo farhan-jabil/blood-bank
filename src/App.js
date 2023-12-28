@@ -1,6 +1,7 @@
 import "./App.css";
 import './css/index.css';
 import './css/phone.css';
+import './css/tab.css'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbarr from "./pages/frontPage/Navbar";
 import Hero from "./pages/frontPage/Hero";
@@ -286,7 +287,7 @@ function App() {
             path="/"
             element={
               <>
-                {/* <Navbarr /> */}
+                <Navbarr />
                 <Hero />
                 <About />
                 <Gallery />

@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { images } from "../../utils/demo_images";
-
-// import Container from "react-bootstrap/Container";
-// import Nav from "react-bootstrap/Nav";
-// import Navbar from "react-bootstrap/Navbar";
-// import NavDropdown from "react-bootstrap/NavDropdown";
+import { Link as ScrollLink } from "react-scroll";
 
 export default function Navbarr(props) {
+
+  const [navbarOpen, setNavbarOpen] = useState(false);
+
+  const closeNavbar = () => {
+    setNavbarOpen(false);
+  };
+
   return (
     <>
       <div className="topNav">
@@ -50,97 +53,93 @@ export default function Navbarr(props) {
         </nav>
       </div>
       <div className="bottomNav">
-        <nav className="navbar navbar-expand-lg navbar-light">
+        <nav className={`navbar navbar-expand-lg bg-white navbar-light`}>
           <div className="container">
             <div className="logoImg">
               <img src={images.logo} alt="" />
             </div>
-            {/* <button
+            <button
               className="navbar-toggler"
               type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
+              onClick={() => setNavbarOpen(!navbarOpen)}
             >
               <span className="navbar-toggler-icon"></span>
-            </button> */}
-            {/* <div className="collapse navbar-collapse pt-1" id="navbarSupportedContent"> */}
-            <ul className="bottomNavRight navbar-nav mb-2">
-              <li className="nav-item ms-5">
-                <a
-                  className="nav-link text-black active"
-                  aria-current="page"
-                  href="#hero"
-                >
-                  Home
-                </a>
-              </li>
-              <li className="nav-item ms-5">
-                <a className="nav-link text-grey " href="#about">
-                  About Us
-                </a>
-              </li>
-              <li className="nav-item ms-5">
-                <a className="nav-link text-grey " href="#gallery">
-                  Gallery
-                </a>
-              </li>
-              <li className="nav-item ms-5">
-                <a className="nav-link text-grey " href="#process">
-                  Process
-                </a>
-              </li>
-              <li className="nav-item ms-5">
-                <a className="nav-link text-grey " href="#blog">
-                  Blog
-                </a>
-              </li>
-              <li className="nav-item ms-5">
-                <a className="nav-link text-grey" href="#footer">
-                  Contact Us
-                </a>
-              </li>
-            </ul>
-            {/* </div> */}
+            </button>
+            <div
+              className={`collapse navbar-collapse justify-content-end ${navbarOpen ? "show" : ""}`}
+            >
+              <ul className="bottomNavRight navbar-nav align-items-center navList">
+                <li className="nav-item navItems ms-5">
+                  <ScrollLink
+                    to="hero"
+                    smooth={true}
+                    duration={500}
+                    className="nav-link"
+                    onClick={closeNavbar}
+                  >
+                    Home
+                  </ScrollLink>
+                </li>
+                <li className="nav-item navItems ms-5">
+                  <ScrollLink
+                    to="about"
+                    smooth={true}
+                    duration={500}
+                    className="nav-link"
+                    onClick={closeNavbar}
+                  >
+                    About Us
+                  </ScrollLink>
+                </li>
+                <li className="nav-item navItems ms-5">
+                  <ScrollLink
+                    to="gallery"
+                    smooth={true}
+                    duration={500}
+                    className="nav-link"
+                    onClick={closeNavbar}
+                  >
+                    Gallery
+                  </ScrollLink>
+                </li>
+                <li className="nav-item navItems ms-5">
+                  <ScrollLink
+                    to="process"
+                    smooth={true}
+                    duration={500}
+                    className="nav-link"
+                    onClick={closeNavbar}
+                  >
+                    Process
+                  </ScrollLink>
+                </li>
+                <li className="nav-item navItems ms-5">
+                  <ScrollLink
+                    to="blog"
+                    smooth={true}
+                    duration={500}
+                    className="nav-link"
+                    onClick={closeNavbar}
+                  >
+                    Blog
+                  </ScrollLink>
+                </li>
+                <li className="nav-item navItems ms-5">
+                  <ScrollLink
+                    to="footer"
+                    smooth={true}
+                    duration={500}
+                    className="nav-link"
+                    onClick={closeNavbar}
+                  >
+                    Contact Us
+                  </ScrollLink>
+                </li>
+              </ul>
+            </div>
           </div>
         </nav>
       </div>
-      {/* <div className="bottomNav">
-        <Navbar expand="lg" className="bg-body-tertiary justify-content-between">
-          <Container className="bg-danger">
-            <Navbar.Brand>
-              <div className="logoImg bg-secondary">
-                <img src={images.logo} alt="" />
-              </div>
-            </Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav justify-content-end" />
-            <Navbar.Collapse
-              id="basic-navbar-nav"
-              className=""
-            >
-              <Nav className="bottomNavRight me-0 bg-primary">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#link">Link</Nav.Link>
-                <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                  <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.2">
-                    Another action
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">
-                    Something
-                  </NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action/3.4">
-                    Separated link
-                  </NavDropdown.Item>
-                </NavDropdown>
-              </Nav>
-            </Navbar.Collapse>
-          </Container>
-        </Navbar>
-      </div> */}
     </>
   );
 }

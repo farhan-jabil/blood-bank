@@ -266,6 +266,9 @@
   .blog {
     padding: 50px 0;
   }
+  .blog br {
+    display: none;
+  }
   .blog .blog-cards {
     flex-direction: column;
     text-align: center;

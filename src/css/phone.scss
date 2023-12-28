@@ -318,6 +318,9 @@
 
   .blog {
     padding: 50px 0;
+    br {
+      display: none;
+    }
     .blog-cards {
       flex-direction: column;
       text-align: center;

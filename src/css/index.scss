@@ -40,6 +40,9 @@ li {
     font-family: "Merriweather", serif;
     font-weight: 600;
     font-size: 18px !important;
+    li {
+      cursor: pointer;
+    }
   }
 }
 
@@ -166,9 +169,6 @@ li {
   padding: 100px 0;
   color: #6a6a6a;
   background-color: #cccccc2e;
-  br {
-    display: none;
-  }
   .blog-cards {
     display: flex;
     box-shadow: 0 2px 3px 0 rgba(218, 218, 253, 0.35),

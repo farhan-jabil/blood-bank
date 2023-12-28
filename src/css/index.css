@@ -40,6 +40,9 @@ li {
   font-weight: 600;
   font-size: 18px !important;
 }
+.bottomNav .bottomNavRight li {
+  cursor: pointer;
+}
 
 .vr {
   background-color: white;
@@ -155,9 +158,6 @@ li {
   padding: 100px 0;
   color: #6a6a6a;
   background-color: rgba(204, 204, 204, 0.1803921569);
-}
-.blog br {
-  display: none;
 }
 .blog .blog-cards {
   display: flex;

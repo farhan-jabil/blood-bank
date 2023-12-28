@@ -14,7 +14,7 @@ export default function Process() {
             </span>
           </div>
           <div className="row mt-5">
-            <div className="col-sm-12 col-lg-3">
+            <div className="col-sm-12 col-md-6 col-lg-3">
               <div className="card process-cards" style={{width: "18rem"}}>
                 <img src={images.galleryImages1} className="card-img-top" />
                 <div className="card-body text-secondary">
@@ -28,7 +28,7 @@ export default function Process() {
                 </div>
               </div>
             </div>
-            <div className="col-sm-12 col-lg-3">
+            <div className="col-sm-12 col-md-6 col-lg-3">
               <div className="card process-cards" style={{width: "18rem"}}>
                 <img src={images.galleryImages2} className="card-img-top" />
                 <div className="card-body text-secondary">
@@ -42,7 +42,7 @@ export default function Process() {
                 </div>
               </div>
             </div>
-            <div className="col-sm-12 col-lg-3">
+            <div className="col-sm-12 col-md-6 col-lg-3">
               <div className="card process-cards" style={{width: "18rem"}}>
                 <img src={images.galleryImages3} className="card-img-top" />
                 <div className="card-body text-secondary">
@@ -56,7 +56,7 @@ export default function Process() {
                 </div>
               </div>
             </div>
-            <div className="col-sm-12 col-lg-3">
+            <div className="col-sm-12 col-md-6 col-lg-3">
               <div className="card process-cards" style={{width: "18rem"}}>
                 <img src={images.galleryImages4} className="card-img-top" />
                 <div className="card-body text-secondary">

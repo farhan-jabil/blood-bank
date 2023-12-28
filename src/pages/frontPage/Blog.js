@@ -15,7 +15,7 @@ export default function Blog() {
             </div>
           </div>
           <div className="row mt-5">
-            <div className="col-lg-6">
+            <div className="col-md-6">
               <div className="blog-cards">
                 <div className="blog-cards-image">
                   <img src={images.galleryImages1} className="card-img-top" />
@@ -33,7 +33,7 @@ export default function Blog() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-md-6">
               <div className="blog-cards">
                 <div className="blog-cards-image">
                   <img src={images.galleryImages2} className="card-img-top" />
@@ -51,7 +51,7 @@ export default function Blog() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-md-6">
               <div className="blog-cards">
                 <div className="blog-cards-image">
                   <img src={images.galleryImages3} className="card-img-top" />
@@ -69,7 +69,7 @@ export default function Blog() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-md-6">
               <div className="blog-cards">
                 <div className="blog-cards-image">
                   <img src={images.galleryImages4} className="card-img-top" />
