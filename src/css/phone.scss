@@ -16,12 +16,12 @@
     padding-bottom: 15px;
     .topNavLeft {
       padding-left: 10px;
-      font-size: 15px;
+      font-size: 12px;
     }
     .rightNavLeft {
       padding-right: 0px;
       margin-right: 10px;
-      font-size: 15px;
+      font-size: 12px;
     }
   }
 
@@ -386,7 +386,7 @@
 
   .hero {
     .slick-next {
-      right: 30px;
+      right: 20px;
       z-index: 1;
       &::before {
         font-size: 1rem;
@@ -394,7 +394,7 @@
     }
   
     .slick-prev {
-      left: 30px;
+      left: 20px;
       z-index: 1;
       &::before {
         font-size: 1rem;
@@ -405,7 +405,7 @@
       bottom: 0;
       li {
         margin: 0px 3px;
-        height: 13px;
+        height: 10px;
       }
     }
   

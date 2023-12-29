@@ -1,5 +1,5 @@
 import React from "react";
-import { images } from "../../utils/demo_images";
+import { images } from "../utils/demo_images";
 
 export default function Process() {
   return (

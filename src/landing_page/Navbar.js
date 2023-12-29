@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import { images } from "../../utils/demo_images";
+import React, { useState } from "react";
+import { images } from "../utils/demo_images";
 import { Link as ScrollLink } from "react-scroll";
 
 export default function Navbarr(props) {
@@ -35,7 +35,7 @@ export default function Navbarr(props) {
             <ul className="rightNavLeft navbar-nav">
               <li className="nav-item">
                 <small>
-                  <i class="fa-solid fa-cloud-arrow-up"></i>
+                  <i className="fa-solid fa-cloud-arrow-up"></i>
                 </small>
                 <span className="ms-2">Upload Video</span>
                 <span className="mx-4">
